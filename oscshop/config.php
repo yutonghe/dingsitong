@@ -36,13 +36,14 @@ return [
 
 	//银生宝配置
 	'yinsheng_pay' => [
-		'contractId' => '000', //协议号
-		'accountId' => '000', // 商户号
-		'accountKey' => '000', //商户秘钥
-		'signSimpleSubContract' => 'http://IP:PORT/unspay-external/subcontract/signSimpleSubContract', //子协议录入接口
-		'collect' => 'http://IP:PORT/unspay-external/delegateCollect/collect', //代扣接口
-		'queryOrderStatus' => 'http://IP:PORT/unspay-external/delegateCollect/queryOrderStatus', //订单状态查询
-		'querySubContractId' => 'http://IP:PORT/unspay-external/subcontract/querySubContractId', //子协议号查询
-		'subConstractExtension' => 'http://IP:PORT/unspay-external/subcontract/subConstractExtension', //子协议延期
+		'contractId' => '1120171016165338001', //协议号
+		'accountId' => '1120171016165338001', // 商户号
+		'accountKey' => '123456abc', //商户秘钥
+		'signSimpleSubContract' => 'http://180.166.114.155:58082/delegate-collect-front/subcontract/signSimpleSubContractJson', //子协议录入接口
+		'signSimpleSubContract2' => 'http://180.166.114.155:8081/delegate-collect-front/subcontract/signSimpleSubContract', //子协议录入接口
+		'collect' => 'http://180.166.114.155:8081/unspay-external/delegateCollect/collect', //代扣接口
+		'queryOrderStatus' => 'http://180.166.114.155:8081/unspay-external/delegateCollect/queryOrderStatus', //订单状态查询
+		'querySubContractId' => 'http://180.166.114.155:8081/unspay-external/subcontract/querySubContractId', //子协议号查询
+		'subConstractExtension' => 'http://180.166.114.155:8081/unspay-external/subcontract/subConstractExtension', //子协议延期
 	]
 ];

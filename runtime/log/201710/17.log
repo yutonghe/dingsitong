@@ -1,0 +1,2649 @@
+---------------------------------------------------------------
+[ 2017-10-17T17:03:13+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/yinsheng/index
+[ info ] oscshop2.com/admin/yinsheng/index [运行时间：0.115007s][吞吐率：8.70req/s] [内存消耗：3,641.43kb] [文件加载：53]
+[ info ] [ LANG ] D:\wamp64\www\dingsitong\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'yinsheng',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'oscshop2.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://oscshop2.com/admin/Yinsheng/orders?status=1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=4oe3i6uf5njp3pcp6k5bfan3v3; Hm_lvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1508203010; Hm_lpvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1508208650',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] osc\admin\controller\Yinsheng->index[ D:\wamp64\www\dingsitong\oscshop\admin\controller\Yinsheng.php ]
+[ info ] [ VIEW ] ./oscshop/admin\view\yinsheng\index.html [ array (
+  0 => 'admin_menu',
+  1 => 'breadcrumb1',
+  2 => 'breadcrumb2',
+  3 => 'order',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-17T17:03:16+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/Yinsheng/yinsheng_pay
+[ info ] oscshop2.com/admin/Yinsheng/yinsheng_pay [运行时间：1.219070s][吞吐率：0.82req/s] [内存消耗：2,559.98kb] [文件加载：45]
+[ info ] [ LANG ] D:\wamp64\www\dingsitong\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Yinsheng',
+    2 => 'yinsheng_pay',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'oscshop2.com',
+  'connection' => 'keep-alive',
+  'content-length' => '105',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://oscshop2.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://oscshop2.com/admin/yinsheng/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=4oe3i6uf5njp3pcp6k5bfan3v3; Hm_lvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1508203010; Hm_lpvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1508208650',
+)
+[ info ] [ PARAM ] array (
+  'cardNo' => '',
+  'name' => '',
+  'idCardNo' => '',
+  'phoneNo' => '',
+  'amount' => '',
+  'purpose' => '',
+  'subContractId' => '',
+  'orderId' => '5de847c1330ff4c27c08813b1113f419',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] osc\admin\controller\Yinsheng->yinsheng_pay[ D:\wamp64\www\dingsitong\oscshop\admin\controller\Yinsheng.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-17T17:07:11+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/yinsheng/index
+[ info ] oscshop2.com/admin/yinsheng/index [运行时间：0.073004s][吞吐率：13.70req/s] [内存消耗：2,679.78kb] [文件加载：48]
+[ info ] [ LANG ] D:\wamp64\www\dingsitong\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'yinsheng',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'oscshop2.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://oscshop2.com/admin/Yinsheng/orders?status=1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=4oe3i6uf5njp3pcp6k5bfan3v3; Hm_lvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1508203010; Hm_lpvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1508208650',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] osc\admin\controller\Yinsheng->index[ D:\wamp64\www\dingsitong\oscshop\admin\controller\Yinsheng.php ]
+[ info ] [ VIEW ] ./oscshop/admin\view\yinsheng\index.html [ array (
+  0 => 'admin_menu',
+  1 => 'breadcrumb1',
+  2 => 'breadcrumb2',
+  3 => 'order',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-17T17:07:13+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/Yinsheng/yinsheng_pay
+[ info ] oscshop2.com/admin/Yinsheng/yinsheng_pay [运行时间：0.190011s][吞吐率：5.26req/s] [内存消耗：2,560.01kb] [文件加载：45]
+[ info ] [ LANG ] D:\wamp64\www\dingsitong\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Yinsheng',
+    2 => 'yinsheng_pay',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'oscshop2.com',
+  'connection' => 'keep-alive',
+  'content-length' => '105',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://oscshop2.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://oscshop2.com/admin/yinsheng/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=4oe3i6uf5njp3pcp6k5bfan3v3; Hm_lvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1508203010; Hm_lpvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1508208650',
+)
+[ info ] [ PARAM ] array (
+  'cardNo' => '',
+  'name' => '',
+  'idCardNo' => '',
+  'phoneNo' => '',
+  'amount' => '',
+  'purpose' => '',
+  'subContractId' => '',
+  'orderId' => 'ea1e9f6218013d8c57795200b3300711',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] osc\admin\controller\Yinsheng->yinsheng_pay[ D:\wamp64\www\dingsitong\oscshop\admin\controller\Yinsheng.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-17T17:07:16+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/Yinsheng/get_scOrder
+[ info ] oscshop2.com/admin/Yinsheng/get_scOrder [运行时间：0.206012s][吞吐率：4.85req/s] [内存消耗：2,559.84kb] [文件加载：45]
+[ info ] [ LANG ] D:\wamp64\www\dingsitong\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Yinsheng',
+    2 => 'get_scOrder',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'oscshop2.com',
+  'connection' => 'keep-alive',
+  'content-length' => '32',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://oscshop2.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://oscshop2.com/admin/yinsheng/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=4oe3i6uf5njp3pcp6k5bfan3v3; Hm_lvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1508203010; Hm_lpvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1508208650',
+)
+[ info ] [ PARAM ] array (
+  'cardNo' => '',
+  'name' => '',
+  'idCardNo' => '',
+  'phoneNo' => '',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] osc\admin\controller\Yinsheng->get_scOrder[ D:\wamp64\www\dingsitong\oscshop\admin\controller\Yinsheng.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-17T17:08:55+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/Yinsheng/get_scOrder
+[ info ] oscshop2.com/admin/Yinsheng/get_scOrder [运行时间：0.192011s][吞吐率：5.21req/s] [内存消耗：2,559.99kb] [文件加载：45]
+[ info ] [ LANG ] D:\wamp64\www\dingsitong\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Yinsheng',
+    2 => 'get_scOrder',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'oscshop2.com',
+  'connection' => 'keep-alive',
+  'content-length' => '104',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://oscshop2.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://oscshop2.com/admin/yinsheng/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=4oe3i6uf5njp3pcp6k5bfan3v3; Hm_lvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1508203010; Hm_lpvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1508208650',
+)
+[ info ] [ PARAM ] array (
+  'cardNo' => '6214837846493702',
+  'name' => '余统和',
+  'idCardNo' => '450821198912055334',
+  'phoneNo' => '15814695088',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] osc\admin\controller\Yinsheng->get_scOrder[ D:\wamp64\www\dingsitong\oscshop\admin\controller\Yinsheng.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-17T17:12:06+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/Yinsheng/get_scOrder
+[ info ] oscshop2.com/admin/Yinsheng/get_scOrder [运行时间：0.085005s][吞吐率：11.76req/s] [内存消耗：2,559.30kb] [文件加载：45]
+[ info ] [ LANG ] D:\wamp64\www\dingsitong\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Yinsheng',
+    2 => 'get_scOrder',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'oscshop2.com',
+  'connection' => 'keep-alive',
+  'content-length' => '104',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://oscshop2.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://oscshop2.com/admin/yinsheng/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=4oe3i6uf5njp3pcp6k5bfan3v3; Hm_lvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1508203010; Hm_lpvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1508208650',
+)
+[ info ] [ PARAM ] array (
+  'cardNo' => '6214837846493702',
+  'name' => '余统和',
+  'idCardNo' => '450821198912055334',
+  'phoneNo' => '15814695088',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] osc\admin\controller\Yinsheng->get_scOrder[ D:\wamp64\www\dingsitong\oscshop\admin\controller\Yinsheng.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-17T17:12:15+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/Yinsheng/get_scOrder
+[ info ] oscshop2.com/admin/Yinsheng/get_scOrder [运行时间：0.092005s][吞吐率：10.87req/s] [内存消耗：2,559.30kb] [文件加载：45]
+[ info ] [ LANG ] D:\wamp64\www\dingsitong\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Yinsheng',
+    2 => 'get_scOrder',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'oscshop2.com',
+  'connection' => 'keep-alive',
+  'content-length' => '104',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://oscshop2.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://oscshop2.com/admin/yinsheng/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=4oe3i6uf5njp3pcp6k5bfan3v3; Hm_lvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1508203010; Hm_lpvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1508208650',
+)
+[ info ] [ PARAM ] array (
+  'cardNo' => '6214837846493702',
+  'name' => '余统和',
+  'idCardNo' => '450821198912055334',
+  'phoneNo' => '15814695088',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] osc\admin\controller\Yinsheng->get_scOrder[ D:\wamp64\www\dingsitong\oscshop\admin\controller\Yinsheng.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-17T17:14:54+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/Yinsheng/get_scOrder
+[ info ] oscshop2.com/admin/Yinsheng/get_scOrder [运行时间：0.179010s][吞吐率：5.59req/s] [内存消耗：2,559.99kb] [文件加载：45]
+[ info ] [ LANG ] D:\wamp64\www\dingsitong\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Yinsheng',
+    2 => 'get_scOrder',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'oscshop2.com',
+  'connection' => 'keep-alive',
+  'content-length' => '104',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://oscshop2.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://oscshop2.com/admin/yinsheng/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=4oe3i6uf5njp3pcp6k5bfan3v3; Hm_lvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1508203010; Hm_lpvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1508208650',
+)
+[ info ] [ PARAM ] array (
+  'cardNo' => '6214837846493702',
+  'name' => '余统和',
+  'idCardNo' => '450821198912055334',
+  'phoneNo' => '15814695088',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] osc\admin\controller\Yinsheng->get_scOrder[ D:\wamp64\www\dingsitong\oscshop\admin\controller\Yinsheng.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-17T17:14:59+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/Yinsheng/get_scOrder
+[ info ] oscshop2.com/admin/Yinsheng/get_scOrder [运行时间：0.142008s][吞吐率：7.04req/s] [内存消耗：2,559.99kb] [文件加载：45]
+[ info ] [ LANG ] D:\wamp64\www\dingsitong\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Yinsheng',
+    2 => 'get_scOrder',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'oscshop2.com',
+  'connection' => 'keep-alive',
+  'content-length' => '104',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://oscshop2.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://oscshop2.com/admin/yinsheng/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=4oe3i6uf5njp3pcp6k5bfan3v3; Hm_lvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1508203010; Hm_lpvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1508208650',
+)
+[ info ] [ PARAM ] array (
+  'cardNo' => '6214837846493702',
+  'name' => '余统和',
+  'idCardNo' => '450821198912055334',
+  'phoneNo' => '15814695088',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] osc\admin\controller\Yinsheng->get_scOrder[ D:\wamp64\www\dingsitong\oscshop\admin\controller\Yinsheng.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-17T17:18:25+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/yinsheng/index
+[ info ] oscshop2.com/admin/yinsheng/index [运行时间：0.100006s][吞吐率：10.00req/s] [内存消耗：2,679.75kb] [文件加载：48]
+[ info ] [ LANG ] D:\wamp64\www\dingsitong\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'yinsheng',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'oscshop2.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://oscshop2.com/admin/Yinsheng/orders?status=1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=4oe3i6uf5njp3pcp6k5bfan3v3; Hm_lvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1508203010; Hm_lpvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1508208650',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] osc\admin\controller\Yinsheng->index[ D:\wamp64\www\dingsitong\oscshop\admin\controller\Yinsheng.php ]
+[ info ] [ VIEW ] ./oscshop/admin\view\yinsheng\index.html [ array (
+  0 => 'admin_menu',
+  1 => 'breadcrumb1',
+  2 => 'breadcrumb2',
+  3 => 'order',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-17T17:18:27+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/Yinsheng/get_scOrder
+[ info ] oscshop2.com/admin/Yinsheng/get_scOrder [运行时间：0.168009s][吞吐率：5.95req/s] [内存消耗：2,559.80kb] [文件加载：45]
+[ info ] [ LANG ] D:\wamp64\www\dingsitong\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Yinsheng',
+    2 => 'get_scOrder',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'oscshop2.com',
+  'connection' => 'keep-alive',
+  'content-length' => '32',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://oscshop2.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://oscshop2.com/admin/yinsheng/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=4oe3i6uf5njp3pcp6k5bfan3v3; Hm_lvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1508203010; Hm_lpvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1508208650',
+)
+[ info ] [ PARAM ] array (
+  'cardNo' => '',
+  'name' => '',
+  'idCardNo' => '',
+  'phoneNo' => '',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] osc\admin\controller\Yinsheng->get_scOrder[ D:\wamp64\www\dingsitong\oscshop\admin\controller\Yinsheng.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-17T17:19:12+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/Yinsheng/get_scOrder
+[ info ] oscshop2.com/admin/Yinsheng/get_scOrder [运行时间：0.206012s][吞吐率：4.85req/s] [内存消耗：2,559.99kb] [文件加载：45]
+[ info ] [ LANG ] D:\wamp64\www\dingsitong\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Yinsheng',
+    2 => 'get_scOrder',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'oscshop2.com',
+  'connection' => 'keep-alive',
+  'content-length' => '104',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://oscshop2.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://oscshop2.com/admin/yinsheng/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=4oe3i6uf5njp3pcp6k5bfan3v3; Hm_lvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1508203010; Hm_lpvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1508208650',
+)
+[ info ] [ PARAM ] array (
+  'cardNo' => '6214837846493702',
+  'name' => '余统和',
+  'idCardNo' => '450821198912055334',
+  'phoneNo' => '15814695088',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] osc\admin\controller\Yinsheng->get_scOrder[ D:\wamp64\www\dingsitong\oscshop\admin\controller\Yinsheng.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-17T17:19:18+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/Yinsheng/get_scOrder
+[ info ] oscshop2.com/admin/Yinsheng/get_scOrder [运行时间：0.161009s][吞吐率：6.21req/s] [内存消耗：2,559.99kb] [文件加载：45]
+[ info ] [ LANG ] D:\wamp64\www\dingsitong\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Yinsheng',
+    2 => 'get_scOrder',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'oscshop2.com',
+  'connection' => 'keep-alive',
+  'content-length' => '104',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://oscshop2.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://oscshop2.com/admin/yinsheng/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=4oe3i6uf5njp3pcp6k5bfan3v3; Hm_lvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1508203010; Hm_lpvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1508208650',
+)
+[ info ] [ PARAM ] array (
+  'cardNo' => '6214837846493702',
+  'name' => '余统和',
+  'idCardNo' => '450821198912055334',
+  'phoneNo' => '15814695088',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] osc\admin\controller\Yinsheng->get_scOrder[ D:\wamp64\www\dingsitong\oscshop\admin\controller\Yinsheng.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-17T17:19:39+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/Yinsheng/get_scOrder
+[ info ] oscshop2.com/admin/Yinsheng/get_scOrder [运行时间：0.145008s][吞吐率：6.90req/s] [内存消耗：2,559.99kb] [文件加载：45]
+[ info ] [ LANG ] D:\wamp64\www\dingsitong\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Yinsheng',
+    2 => 'get_scOrder',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'oscshop2.com',
+  'connection' => 'keep-alive',
+  'content-length' => '104',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://oscshop2.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://oscshop2.com/admin/yinsheng/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=4oe3i6uf5njp3pcp6k5bfan3v3; Hm_lvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1508203010; Hm_lpvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1508208650',
+)
+[ info ] [ PARAM ] array (
+  'cardNo' => '6214837846493702',
+  'name' => '余统和',
+  'idCardNo' => '450821198912055334',
+  'phoneNo' => '15814695088',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] osc\admin\controller\Yinsheng->get_scOrder[ D:\wamp64\www\dingsitong\oscshop\admin\controller\Yinsheng.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-17T17:19:44+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/Yinsheng/get_scOrder
+[ info ] oscshop2.com/admin/Yinsheng/get_scOrder [运行时间：0.148008s][吞吐率：6.76req/s] [内存消耗：2,559.99kb] [文件加载：45]
+[ info ] [ LANG ] D:\wamp64\www\dingsitong\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Yinsheng',
+    2 => 'get_scOrder',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'oscshop2.com',
+  'connection' => 'keep-alive',
+  'content-length' => '104',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://oscshop2.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://oscshop2.com/admin/yinsheng/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=4oe3i6uf5njp3pcp6k5bfan3v3; Hm_lvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1508203010; Hm_lpvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1508208650',
+)
+[ info ] [ PARAM ] array (
+  'cardNo' => '6214837846493702',
+  'name' => '余统和',
+  'idCardNo' => '450821198912055334',
+  'phoneNo' => '15814695088',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] osc\admin\controller\Yinsheng->get_scOrder[ D:\wamp64\www\dingsitong\oscshop\admin\controller\Yinsheng.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-17T17:20:12+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/Yinsheng/get_scOrder
+[ info ] oscshop2.com/admin/Yinsheng/get_scOrder [运行时间：0.160009s][吞吐率：6.25req/s] [内存消耗：2,559.99kb] [文件加载：45]
+[ info ] [ LANG ] D:\wamp64\www\dingsitong\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Yinsheng',
+    2 => 'get_scOrder',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'oscshop2.com',
+  'connection' => 'keep-alive',
+  'content-length' => '104',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://oscshop2.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://oscshop2.com/admin/yinsheng/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=4oe3i6uf5njp3pcp6k5bfan3v3; Hm_lvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1508203010; Hm_lpvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1508208650',
+)
+[ info ] [ PARAM ] array (
+  'cardNo' => '6214837846493702',
+  'name' => '余统和',
+  'idCardNo' => '450821198912055334',
+  'phoneNo' => '15814695088',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] osc\admin\controller\Yinsheng->get_scOrder[ D:\wamp64\www\dingsitong\oscshop\admin\controller\Yinsheng.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-17T17:20:55+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/Yinsheng/get_scOrder
+[ info ] oscshop2.com/admin/Yinsheng/get_scOrder [运行时间：0.180010s][吞吐率：5.56req/s] [内存消耗：2,560.03kb] [文件加载：45]
+[ info ] [ LANG ] D:\wamp64\www\dingsitong\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Yinsheng',
+    2 => 'get_scOrder',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'oscshop2.com',
+  'connection' => 'keep-alive',
+  'content-length' => '104',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://oscshop2.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://oscshop2.com/admin/yinsheng/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=4oe3i6uf5njp3pcp6k5bfan3v3; Hm_lvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1508203010; Hm_lpvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1508208650',
+)
+[ info ] [ PARAM ] array (
+  'cardNo' => '6214837846493702',
+  'name' => '余统和',
+  'idCardNo' => '450821198912055334',
+  'phoneNo' => '15814695088',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] osc\admin\controller\Yinsheng->get_scOrder[ D:\wamp64\www\dingsitong\oscshop\admin\controller\Yinsheng.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-17T17:23:15+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/Yinsheng/get_scOrder
+[ info ] oscshop2.com/admin/Yinsheng/get_scOrder [运行时间：0.189010s][吞吐率：5.29req/s] [内存消耗：2,560.17kb] [文件加载：45]
+[ info ] [ LANG ] D:\wamp64\www\dingsitong\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Yinsheng',
+    2 => 'get_scOrder',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'oscshop2.com',
+  'connection' => 'keep-alive',
+  'content-length' => '104',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://oscshop2.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://oscshop2.com/admin/yinsheng/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=4oe3i6uf5njp3pcp6k5bfan3v3; Hm_lvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1508203010; Hm_lpvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1508208650',
+)
+[ info ] [ PARAM ] array (
+  'cardNo' => '6214837846493702',
+  'name' => '余统和',
+  'idCardNo' => '450821198912055334',
+  'phoneNo' => '15814695088',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] osc\admin\controller\Yinsheng->get_scOrder[ D:\wamp64\www\dingsitong\oscshop\admin\controller\Yinsheng.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-17T17:27:32+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/Yinsheng/get_scOrder
+[ info ] oscshop2.com/admin/Yinsheng/get_scOrder [运行时间：0.181011s][吞吐率：5.52req/s] [内存消耗：2,560.17kb] [文件加载：45]
+[ info ] [ LANG ] D:\wamp64\www\dingsitong\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Yinsheng',
+    2 => 'get_scOrder',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'oscshop2.com',
+  'connection' => 'keep-alive',
+  'content-length' => '104',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://oscshop2.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://oscshop2.com/admin/yinsheng/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=4oe3i6uf5njp3pcp6k5bfan3v3; Hm_lvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1508203010; Hm_lpvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1508208650',
+)
+[ info ] [ PARAM ] array (
+  'cardNo' => '6214837846493702',
+  'name' => '余统和',
+  'idCardNo' => '450821198912055334',
+  'phoneNo' => '15814695088',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] osc\admin\controller\Yinsheng->get_scOrder[ D:\wamp64\www\dingsitong\oscshop\admin\controller\Yinsheng.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-17T17:28:25+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/Yinsheng/get_scOrder
+[ info ] oscshop2.com/admin/Yinsheng/get_scOrder [运行时间：0.206012s][吞吐率：4.85req/s] [内存消耗：2,560.17kb] [文件加载：45]
+[ info ] [ LANG ] D:\wamp64\www\dingsitong\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Yinsheng',
+    2 => 'get_scOrder',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'oscshop2.com',
+  'connection' => 'keep-alive',
+  'content-length' => '104',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://oscshop2.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://oscshop2.com/admin/yinsheng/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=4oe3i6uf5njp3pcp6k5bfan3v3; Hm_lvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1508203010; Hm_lpvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1508208650',
+)
+[ info ] [ PARAM ] array (
+  'cardNo' => '6214837846493702',
+  'name' => '余统和',
+  'idCardNo' => '450821198912055334',
+  'phoneNo' => '15814695088',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] osc\admin\controller\Yinsheng->get_scOrder[ D:\wamp64\www\dingsitong\oscshop\admin\controller\Yinsheng.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-17T17:29:08+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/Yinsheng/get_scOrder
+[ info ] oscshop2.com/admin/Yinsheng/get_scOrder [运行时间：0.167010s][吞吐率：5.99req/s] [内存消耗：2,560.27kb] [文件加载：45]
+[ info ] [ LANG ] D:\wamp64\www\dingsitong\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Yinsheng',
+    2 => 'get_scOrder',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'oscshop2.com',
+  'connection' => 'keep-alive',
+  'content-length' => '104',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://oscshop2.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://oscshop2.com/admin/yinsheng/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=4oe3i6uf5njp3pcp6k5bfan3v3; Hm_lvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1508203010; Hm_lpvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1508208650',
+)
+[ info ] [ PARAM ] array (
+  'cardNo' => '6214837846493702',
+  'name' => '余统和',
+  'idCardNo' => '450821198912055334',
+  'phoneNo' => '15814695088',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] osc\admin\controller\Yinsheng->get_scOrder[ D:\wamp64\www\dingsitong\oscshop\admin\controller\Yinsheng.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-17T17:29:12+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/Yinsheng/get_scOrder
+[ info ] oscshop2.com/admin/Yinsheng/get_scOrder [运行时间：0.410024s][吞吐率：2.44req/s] [内存消耗：2,560.27kb] [文件加载：45]
+[ info ] [ LANG ] D:\wamp64\www\dingsitong\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Yinsheng',
+    2 => 'get_scOrder',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'oscshop2.com',
+  'connection' => 'keep-alive',
+  'content-length' => '104',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://oscshop2.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://oscshop2.com/admin/yinsheng/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=4oe3i6uf5njp3pcp6k5bfan3v3; Hm_lvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1508203010; Hm_lpvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1508208650',
+)
+[ info ] [ PARAM ] array (
+  'cardNo' => '6214837846493702',
+  'name' => '余统和',
+  'idCardNo' => '450821198912055334',
+  'phoneNo' => '15814695088',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] osc\admin\controller\Yinsheng->get_scOrder[ D:\wamp64\www\dingsitong\oscshop\admin\controller\Yinsheng.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-17T17:31:26+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/Yinsheng/get_scOrder
+[ info ] oscshop2.com/admin/Yinsheng/get_scOrder [运行时间：0.163010s][吞吐率：6.13req/s] [内存消耗：2,560.27kb] [文件加载：45]
+[ info ] [ LANG ] D:\wamp64\www\dingsitong\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Yinsheng',
+    2 => 'get_scOrder',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'oscshop2.com',
+  'connection' => 'keep-alive',
+  'content-length' => '104',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://oscshop2.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://oscshop2.com/admin/yinsheng/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=4oe3i6uf5njp3pcp6k5bfan3v3; Hm_lvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1508203010; Hm_lpvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1508208650',
+)
+[ info ] [ PARAM ] array (
+  'cardNo' => '6214837846493702',
+  'name' => '余统和',
+  'idCardNo' => '450821198912055334',
+  'phoneNo' => '15814695088',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] osc\admin\controller\Yinsheng->get_scOrder[ D:\wamp64\www\dingsitong\oscshop\admin\controller\Yinsheng.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-17T17:37:20+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/Yinsheng/get_scOrder
+[ info ] oscshop2.com/admin/Yinsheng/get_scOrder [运行时间：0.174010s][吞吐率：5.75req/s] [内存消耗：2,560.14kb] [文件加载：45]
+[ info ] [ LANG ] D:\wamp64\www\dingsitong\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Yinsheng',
+    2 => 'get_scOrder',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'oscshop2.com',
+  'connection' => 'keep-alive',
+  'content-length' => '104',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://oscshop2.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://oscshop2.com/admin/yinsheng/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=4oe3i6uf5njp3pcp6k5bfan3v3; Hm_lvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1508203010; Hm_lpvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1508208650',
+)
+[ info ] [ PARAM ] array (
+  'cardNo' => '6214837846493702',
+  'name' => '余统和',
+  'idCardNo' => '450821198912055334',
+  'phoneNo' => '15814695088',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] osc\admin\controller\Yinsheng->get_scOrder[ D:\wamp64\www\dingsitong\oscshop\admin\controller\Yinsheng.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-17T17:38:42+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/Yinsheng/get_scOrder
+[ info ] oscshop2.com/admin/Yinsheng/get_scOrder [运行时间：0.169010s][吞吐率：5.92req/s] [内存消耗：2,560.14kb] [文件加载：45]
+[ info ] [ LANG ] D:\wamp64\www\dingsitong\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Yinsheng',
+    2 => 'get_scOrder',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'oscshop2.com',
+  'connection' => 'keep-alive',
+  'content-length' => '104',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://oscshop2.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://oscshop2.com/admin/yinsheng/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=4oe3i6uf5njp3pcp6k5bfan3v3; Hm_lvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1508203010; Hm_lpvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1508208650',
+)
+[ info ] [ PARAM ] array (
+  'cardNo' => '6214837846493702',
+  'name' => '余统和',
+  'idCardNo' => '450821198912055334',
+  'phoneNo' => '15814695088',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] osc\admin\controller\Yinsheng->get_scOrder[ D:\wamp64\www\dingsitong\oscshop\admin\controller\Yinsheng.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-17T17:39:58+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/Yinsheng/get_scOrder
+[ info ] oscshop2.com/admin/Yinsheng/get_scOrder [运行时间：0.156009s][吞吐率：6.41req/s] [内存消耗：2,559.59kb] [文件加载：45]
+[ info ] [ LANG ] D:\wamp64\www\dingsitong\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Yinsheng',
+    2 => 'get_scOrder',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'oscshop2.com',
+  'connection' => 'keep-alive',
+  'content-length' => '104',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://oscshop2.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://oscshop2.com/admin/yinsheng/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=4oe3i6uf5njp3pcp6k5bfan3v3; Hm_lvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1508203010; Hm_lpvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1508208650',
+)
+[ info ] [ PARAM ] array (
+  'cardNo' => '6214837846493702',
+  'name' => '余统和',
+  'idCardNo' => '450821198912055334',
+  'phoneNo' => '15814695088',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] osc\admin\controller\Yinsheng->get_scOrder[ D:\wamp64\www\dingsitong\oscshop\admin\controller\Yinsheng.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-17T17:40:55+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/Yinsheng/get_scOrder
+[ info ] oscshop2.com/admin/Yinsheng/get_scOrder [运行时间：0.143008s][吞吐率：6.99req/s] [内存消耗：2,559.59kb] [文件加载：45]
+[ info ] [ LANG ] D:\wamp64\www\dingsitong\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Yinsheng',
+    2 => 'get_scOrder',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'oscshop2.com',
+  'connection' => 'keep-alive',
+  'content-length' => '104',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://oscshop2.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://oscshop2.com/admin/yinsheng/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=4oe3i6uf5njp3pcp6k5bfan3v3; Hm_lvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1508203010; Hm_lpvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1508208650',
+)
+[ info ] [ PARAM ] array (
+  'cardNo' => '6214837846493702',
+  'name' => '余统和',
+  'idCardNo' => '450821198912055334',
+  'phoneNo' => '15814695088',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] osc\admin\controller\Yinsheng->get_scOrder[ D:\wamp64\www\dingsitong\oscshop\admin\controller\Yinsheng.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-17T17:43:29+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/Yinsheng/get_scOrder
+[ info ] oscshop2.com/admin/Yinsheng/get_scOrder [运行时间：0.153009s][吞吐率：6.54req/s] [内存消耗：2,559.79kb] [文件加载：45]
+[ info ] [ LANG ] D:\wamp64\www\dingsitong\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Yinsheng',
+    2 => 'get_scOrder',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'oscshop2.com',
+  'connection' => 'keep-alive',
+  'content-length' => '104',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://oscshop2.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://oscshop2.com/admin/yinsheng/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=4oe3i6uf5njp3pcp6k5bfan3v3; Hm_lvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1508203010; Hm_lpvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1508208650',
+)
+[ info ] [ PARAM ] array (
+  'cardNo' => '6214837846493702',
+  'name' => '余统和',
+  'idCardNo' => '450821198912055334',
+  'phoneNo' => '15814695088',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] osc\admin\controller\Yinsheng->get_scOrder[ D:\wamp64\www\dingsitong\oscshop\admin\controller\Yinsheng.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-17T17:44:35+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/yinsheng/index
+[ info ] oscshop2.com/admin/yinsheng/index [运行时间：0.110007s][吞吐率：9.09req/s] [内存消耗：2,679.77kb] [文件加载：48]
+[ info ] [ LANG ] D:\wamp64\www\dingsitong\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'yinsheng',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'oscshop2.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://oscshop2.com/admin/Yinsheng/orders?status=1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=4oe3i6uf5njp3pcp6k5bfan3v3; Hm_lvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1508203010; Hm_lpvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1508208650',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] osc\admin\controller\Yinsheng->index[ D:\wamp64\www\dingsitong\oscshop\admin\controller\Yinsheng.php ]
+[ info ] [ VIEW ] ./oscshop/admin\view\yinsheng\index.html [ array (
+  0 => 'admin_menu',
+  1 => 'breadcrumb1',
+  2 => 'breadcrumb2',
+  3 => 'order',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-17T17:46:33+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/yinsheng/index
+[ info ] oscshop2.com/admin/yinsheng/index [运行时间：0.089005s][吞吐率：11.24req/s] [内存消耗：2,903.61kb] [文件加载：50]
+[ info ] [ LANG ] D:\wamp64\www\dingsitong\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'yinsheng',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'oscshop2.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://oscshop2.com/admin/Yinsheng/orders?status=1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=4oe3i6uf5njp3pcp6k5bfan3v3; Hm_lvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1508203010; Hm_lpvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1508208650',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] osc\admin\controller\Yinsheng->index[ D:\wamp64\www\dingsitong\oscshop\admin\controller\Yinsheng.php ]
+[ info ] [ VIEW ] ./oscshop/admin\view\yinsheng\index.html [ array (
+  0 => 'admin_menu',
+  1 => 'breadcrumb1',
+  2 => 'breadcrumb2',
+  3 => 'order',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-17T17:46:35+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/Yinsheng/get_scOrder
+[ info ] oscshop2.com/admin/Yinsheng/get_scOrder [运行时间：0.168010s][吞吐率：5.95req/s] [内存消耗：2,559.49kb] [文件加载：45]
+[ info ] [ LANG ] D:\wamp64\www\dingsitong\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Yinsheng',
+    2 => 'get_scOrder',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'oscshop2.com',
+  'connection' => 'keep-alive',
+  'content-length' => '104',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://oscshop2.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://oscshop2.com/admin/yinsheng/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=4oe3i6uf5njp3pcp6k5bfan3v3; Hm_lvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1508203010; Hm_lpvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1508208650',
+)
+[ info ] [ PARAM ] array (
+  'cardNo' => '6214837846493702',
+  'name' => '余统和',
+  'idCardNo' => '450821198912055334',
+  'phoneNo' => '15814695088',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] osc\admin\controller\Yinsheng->get_scOrder[ D:\wamp64\www\dingsitong\oscshop\admin\controller\Yinsheng.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-17T17:46:38+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/Yinsheng/get_scOrder
+[ info ] oscshop2.com/admin/Yinsheng/get_scOrder [运行时间：0.165010s][吞吐率：6.06req/s] [内存消耗：2,559.49kb] [文件加载：45]
+[ info ] [ LANG ] D:\wamp64\www\dingsitong\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Yinsheng',
+    2 => 'get_scOrder',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'oscshop2.com',
+  'connection' => 'keep-alive',
+  'content-length' => '104',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://oscshop2.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://oscshop2.com/admin/yinsheng/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=4oe3i6uf5njp3pcp6k5bfan3v3; Hm_lvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1508203010; Hm_lpvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1508208650',
+)
+[ info ] [ PARAM ] array (
+  'cardNo' => '6214837846493702',
+  'name' => '余统和',
+  'idCardNo' => '450821198912055334',
+  'phoneNo' => '15814695088',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] osc\admin\controller\Yinsheng->get_scOrder[ D:\wamp64\www\dingsitong\oscshop\admin\controller\Yinsheng.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-17T17:47:47+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/Yinsheng/get_scOrder
+[ info ] oscshop2.com/admin/Yinsheng/get_scOrder [运行时间：0.137007s][吞吐率：7.30req/s] [内存消耗：2,559.49kb] [文件加载：45]
+[ info ] [ LANG ] D:\wamp64\www\dingsitong\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Yinsheng',
+    2 => 'get_scOrder',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'oscshop2.com',
+  'connection' => 'keep-alive',
+  'content-length' => '104',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://oscshop2.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://oscshop2.com/admin/yinsheng/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=4oe3i6uf5njp3pcp6k5bfan3v3; Hm_lvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1508203010; Hm_lpvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1508208650',
+)
+[ info ] [ PARAM ] array (
+  'cardNo' => '6214837846493702',
+  'name' => '余统和',
+  'idCardNo' => '450821198912055334',
+  'phoneNo' => '15814695088',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] osc\admin\controller\Yinsheng->get_scOrder[ D:\wamp64\www\dingsitong\oscshop\admin\controller\Yinsheng.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-17T17:47:52+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/Yinsheng/get_scOrder
+[ info ] oscshop2.com/admin/Yinsheng/get_scOrder [运行时间：0.158009s][吞吐率：6.33req/s] [内存消耗：2,559.49kb] [文件加载：45]
+[ info ] [ LANG ] D:\wamp64\www\dingsitong\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Yinsheng',
+    2 => 'get_scOrder',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'oscshop2.com',
+  'connection' => 'keep-alive',
+  'content-length' => '104',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://oscshop2.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://oscshop2.com/admin/yinsheng/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=4oe3i6uf5njp3pcp6k5bfan3v3; Hm_lvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1508203010; Hm_lpvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1508208650',
+)
+[ info ] [ PARAM ] array (
+  'cardNo' => '6214837846493702',
+  'name' => '余统和',
+  'idCardNo' => '450821198912055334',
+  'phoneNo' => '15814695088',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] osc\admin\controller\Yinsheng->get_scOrder[ D:\wamp64\www\dingsitong\oscshop\admin\controller\Yinsheng.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-17T17:48:34+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/Yinsheng/get_scOrder
+[ info ] oscshop2.com/admin/Yinsheng/get_scOrder [运行时间：0.142008s][吞吐率：7.04req/s] [内存消耗：2,559.59kb] [文件加载：45]
+[ info ] [ LANG ] D:\wamp64\www\dingsitong\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Yinsheng',
+    2 => 'get_scOrder',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'oscshop2.com',
+  'connection' => 'keep-alive',
+  'content-length' => '104',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://oscshop2.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://oscshop2.com/admin/yinsheng/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=4oe3i6uf5njp3pcp6k5bfan3v3; Hm_lvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1508203010; Hm_lpvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1508208650',
+)
+[ info ] [ PARAM ] array (
+  'cardNo' => '6214837846493702',
+  'name' => '余统和',
+  'idCardNo' => '450821198912055334',
+  'phoneNo' => '15814695088',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] osc\admin\controller\Yinsheng->get_scOrder[ D:\wamp64\www\dingsitong\oscshop\admin\controller\Yinsheng.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-17T17:48:36+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/Yinsheng/get_scOrder
+[ info ] oscshop2.com/admin/Yinsheng/get_scOrder [运行时间：0.363021s][吞吐率：2.75req/s] [内存消耗：2,559.59kb] [文件加载：45]
+[ info ] [ LANG ] D:\wamp64\www\dingsitong\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Yinsheng',
+    2 => 'get_scOrder',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'oscshop2.com',
+  'connection' => 'keep-alive',
+  'content-length' => '104',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://oscshop2.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://oscshop2.com/admin/yinsheng/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=4oe3i6uf5njp3pcp6k5bfan3v3; Hm_lvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1508203010; Hm_lpvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1508208650',
+)
+[ info ] [ PARAM ] array (
+  'cardNo' => '6214837846493702',
+  'name' => '余统和',
+  'idCardNo' => '450821198912055334',
+  'phoneNo' => '15814695088',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] osc\admin\controller\Yinsheng->get_scOrder[ D:\wamp64\www\dingsitong\oscshop\admin\controller\Yinsheng.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-17T17:48:50+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/yinsheng/index
+[ info ] oscshop2.com/admin/yinsheng/index [运行时间：0.072004s][吞吐率：13.89req/s] [内存消耗：2,679.77kb] [文件加载：48]
+[ info ] [ LANG ] D:\wamp64\www\dingsitong\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'yinsheng',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'oscshop2.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://oscshop2.com/admin/Yinsheng/orders?status=1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=4oe3i6uf5njp3pcp6k5bfan3v3; Hm_lvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1508203010; Hm_lpvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1508208650',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] osc\admin\controller\Yinsheng->index[ D:\wamp64\www\dingsitong\oscshop\admin\controller\Yinsheng.php ]
+[ info ] [ VIEW ] ./oscshop/admin\view\yinsheng\index.html [ array (
+  0 => 'admin_menu',
+  1 => 'breadcrumb1',
+  2 => 'breadcrumb2',
+  3 => 'order',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-17T17:48:53+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/Yinsheng/get_scOrder
+[ info ] oscshop2.com/admin/Yinsheng/get_scOrder [运行时间：0.164009s][吞吐率：6.10req/s] [内存消耗：2,559.49kb] [文件加载：45]
+[ info ] [ LANG ] D:\wamp64\www\dingsitong\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Yinsheng',
+    2 => 'get_scOrder',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'oscshop2.com',
+  'connection' => 'keep-alive',
+  'content-length' => '104',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://oscshop2.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://oscshop2.com/admin/yinsheng/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=4oe3i6uf5njp3pcp6k5bfan3v3; Hm_lvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1508203010; Hm_lpvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1508208650',
+)
+[ info ] [ PARAM ] array (
+  'cardNo' => '6214837846493702',
+  'name' => '余统和',
+  'idCardNo' => '450821198912055334',
+  'phoneNo' => '15814695088',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] osc\admin\controller\Yinsheng->get_scOrder[ D:\wamp64\www\dingsitong\oscshop\admin\controller\Yinsheng.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-17T17:50:59+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/yinsheng/index
+[ info ] oscshop2.com/admin/yinsheng/index [运行时间：0.082004s][吞吐率：12.19req/s] [内存消耗：2,680.23kb] [文件加载：48]
+[ info ] [ LANG ] D:\wamp64\www\dingsitong\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'yinsheng',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'oscshop2.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://oscshop2.com/admin/Yinsheng/orders?status=1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=4oe3i6uf5njp3pcp6k5bfan3v3; Hm_lvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1508203010; Hm_lpvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1508208650',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] osc\admin\controller\Yinsheng->index[ D:\wamp64\www\dingsitong\oscshop\admin\controller\Yinsheng.php ]
+[ info ] [ VIEW ] ./oscshop/admin\view\yinsheng\index.html [ array (
+  0 => 'admin_menu',
+  1 => 'breadcrumb1',
+  2 => 'breadcrumb2',
+  3 => 'order',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-17T17:51:02+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/Yinsheng/get_scOrder
+[ info ] oscshop2.com/admin/Yinsheng/get_scOrder [运行时间：0.173010s][吞吐率：5.78req/s] [内存消耗：2,559.96kb] [文件加载：45]
+[ info ] [ LANG ] D:\wamp64\www\dingsitong\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Yinsheng',
+    2 => 'get_scOrder',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'oscshop2.com',
+  'connection' => 'keep-alive',
+  'content-length' => '104',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://oscshop2.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://oscshop2.com/admin/yinsheng/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=4oe3i6uf5njp3pcp6k5bfan3v3; Hm_lvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1508203010; Hm_lpvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1508208650',
+)
+[ info ] [ PARAM ] array (
+  'cardNo' => '6214837846493702',
+  'name' => '余统和',
+  'idCardNo' => '450821198912055334',
+  'phoneNo' => '15814695088',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] osc\admin\controller\Yinsheng->get_scOrder[ D:\wamp64\www\dingsitong\oscshop\admin\controller\Yinsheng.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-17T17:51:59+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/yinsheng/index
+[ info ] oscshop2.com/admin/yinsheng/index [运行时间：0.097005s][吞吐率：10.31req/s] [内存消耗：2,680.34kb] [文件加载：48]
+[ info ] [ LANG ] D:\wamp64\www\dingsitong\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'yinsheng',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'oscshop2.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://oscshop2.com/admin/Yinsheng/orders?status=1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=4oe3i6uf5njp3pcp6k5bfan3v3; Hm_lvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1508203010; Hm_lpvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1508208650',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] osc\admin\controller\Yinsheng->index[ D:\wamp64\www\dingsitong\oscshop\admin\controller\Yinsheng.php ]
+[ info ] [ VIEW ] ./oscshop/admin\view\yinsheng\index.html [ array (
+  0 => 'admin_menu',
+  1 => 'breadcrumb1',
+  2 => 'breadcrumb2',
+  3 => 'order',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-17T17:52:02+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/Yinsheng/get_scOrder
+[ info ] oscshop2.com/admin/Yinsheng/get_scOrder [运行时间：0.156009s][吞吐率：6.41req/s] [内存消耗：2,560.06kb] [文件加载：45]
+[ info ] [ LANG ] D:\wamp64\www\dingsitong\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Yinsheng',
+    2 => 'get_scOrder',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'oscshop2.com',
+  'connection' => 'keep-alive',
+  'content-length' => '104',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://oscshop2.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://oscshop2.com/admin/yinsheng/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=4oe3i6uf5njp3pcp6k5bfan3v3; Hm_lvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1508203010; Hm_lpvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1508208650',
+)
+[ info ] [ PARAM ] array (
+  'cardNo' => '6214837846493702',
+  'name' => '余统和',
+  'idCardNo' => '450821198912055334',
+  'phoneNo' => '15814695088',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] osc\admin\controller\Yinsheng->get_scOrder[ D:\wamp64\www\dingsitong\oscshop\admin\controller\Yinsheng.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-17T17:53:52+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/yinsheng/index
+[ info ] oscshop2.com/admin/yinsheng/index [运行时间：0.090006s][吞吐率：11.11req/s] [内存消耗：2,680.53kb] [文件加载：48]
+[ info ] [ LANG ] D:\wamp64\www\dingsitong\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'yinsheng',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'oscshop2.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://oscshop2.com/admin/Yinsheng/orders?status=1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=4oe3i6uf5njp3pcp6k5bfan3v3; Hm_lvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1508203010; Hm_lpvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1508208650',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] osc\admin\controller\Yinsheng->index[ D:\wamp64\www\dingsitong\oscshop\admin\controller\Yinsheng.php ]
+[ info ] [ VIEW ] ./oscshop/admin\view\yinsheng\index.html [ array (
+  0 => 'admin_menu',
+  1 => 'breadcrumb1',
+  2 => 'breadcrumb2',
+  3 => 'order',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-17T17:53:59+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/Yinsheng/get_scOrder
+[ info ] oscshop2.com/admin/Yinsheng/get_scOrder [运行时间：3.023173s][吞吐率：0.33req/s] [内存消耗：2,560.98kb] [文件加载：45]
+[ info ] [ LANG ] D:\wamp64\www\dingsitong\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Yinsheng',
+    2 => 'get_scOrder',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'oscshop2.com',
+  'connection' => 'keep-alive',
+  'content-length' => '104',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://oscshop2.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://oscshop2.com/admin/yinsheng/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=4oe3i6uf5njp3pcp6k5bfan3v3; Hm_lvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1508203010; Hm_lpvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1508208650',
+)
+[ info ] [ PARAM ] array (
+  'cardNo' => '6214837846493702',
+  'name' => '余统和',
+  'idCardNo' => '450821198912055334',
+  'phoneNo' => '15814695088',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] osc\admin\controller\Yinsheng->get_scOrder[ D:\wamp64\www\dingsitong\oscshop\admin\controller\Yinsheng.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-17T17:53:59+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/Yinsheng/get_scOrder
+[ info ] oscshop2.com/admin/Yinsheng/get_scOrder [运行时间：0.401023s][吞吐率：2.49req/s] [内存消耗：2,560.79kb] [文件加载：45]
+[ info ] [ LANG ] D:\wamp64\www\dingsitong\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Yinsheng',
+    2 => 'get_scOrder',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'oscshop2.com',
+  'connection' => 'keep-alive',
+  'content-length' => '104',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://oscshop2.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://oscshop2.com/admin/yinsheng/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=4oe3i6uf5njp3pcp6k5bfan3v3; Hm_lvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1508203010; Hm_lpvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1508208650',
+)
+[ info ] [ PARAM ] array (
+  'cardNo' => '6214837846493702',
+  'name' => '余统和',
+  'idCardNo' => '450821198912055334',
+  'phoneNo' => '15814695088',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] osc\admin\controller\Yinsheng->get_scOrder[ D:\wamp64\www\dingsitong\oscshop\admin\controller\Yinsheng.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-17T17:54:03+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/Yinsheng/get_scOrder
+[ info ] oscshop2.com/admin/Yinsheng/get_scOrder [运行时间：0.179010s][吞吐率：5.59req/s] [内存消耗：2,560.79kb] [文件加载：45]
+[ info ] [ LANG ] D:\wamp64\www\dingsitong\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Yinsheng',
+    2 => 'get_scOrder',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'oscshop2.com',
+  'connection' => 'keep-alive',
+  'content-length' => '104',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://oscshop2.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://oscshop2.com/admin/yinsheng/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=4oe3i6uf5njp3pcp6k5bfan3v3; Hm_lvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1508203010; Hm_lpvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1508208650',
+)
+[ info ] [ PARAM ] array (
+  'cardNo' => '6214837846493702',
+  'name' => '余统和',
+  'idCardNo' => '450821198912055334',
+  'phoneNo' => '15814695088',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] osc\admin\controller\Yinsheng->get_scOrder[ D:\wamp64\www\dingsitong\oscshop\admin\controller\Yinsheng.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-17T17:54:20+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/Yinsheng/get_scOrder
+[ info ] oscshop2.com/admin/Yinsheng/get_scOrder [运行时间：0.165010s][吞吐率：6.06req/s] [内存消耗：2,560.79kb] [文件加载：45]
+[ info ] [ LANG ] D:\wamp64\www\dingsitong\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Yinsheng',
+    2 => 'get_scOrder',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'oscshop2.com',
+  'connection' => 'keep-alive',
+  'content-length' => '104',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://oscshop2.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://oscshop2.com/admin/yinsheng/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=4oe3i6uf5njp3pcp6k5bfan3v3; Hm_lvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1508203010; Hm_lpvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1508208650',
+)
+[ info ] [ PARAM ] array (
+  'cardNo' => '6214837846493702',
+  'name' => '余统和',
+  'idCardNo' => '450821198912055334',
+  'phoneNo' => '15814695088',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] osc\admin\controller\Yinsheng->get_scOrder[ D:\wamp64\www\dingsitong\oscshop\admin\controller\Yinsheng.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-17T17:54:54+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/Yinsheng/get_scOrder
+[ info ] oscshop2.com/admin/Yinsheng/get_scOrder [运行时间：0.159009s][吞吐率：6.29req/s] [内存消耗：2,560.79kb] [文件加载：45]
+[ info ] [ LANG ] D:\wamp64\www\dingsitong\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Yinsheng',
+    2 => 'get_scOrder',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'oscshop2.com',
+  'connection' => 'keep-alive',
+  'content-length' => '104',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://oscshop2.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://oscshop2.com/admin/yinsheng/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=4oe3i6uf5njp3pcp6k5bfan3v3; Hm_lvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1508203010; Hm_lpvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1508208650',
+)
+[ info ] [ PARAM ] array (
+  'cardNo' => '6214837846493702',
+  'name' => '余统和',
+  'idCardNo' => '450821198912055334',
+  'phoneNo' => '15814695088',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] osc\admin\controller\Yinsheng->get_scOrder[ D:\wamp64\www\dingsitong\oscshop\admin\controller\Yinsheng.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-17T17:57:57+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/Yinsheng/get_scOrder
+[ info ] oscshop2.com/admin/Yinsheng/get_scOrder [运行时间：0.364021s][吞吐率：2.75req/s] [内存消耗：2,562.33kb] [文件加载：45]
+[ info ] [ LANG ] D:\wamp64\www\dingsitong\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Yinsheng',
+    2 => 'get_scOrder',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'oscshop2.com',
+  'connection' => 'keep-alive',
+  'content-length' => '104',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://oscshop2.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://oscshop2.com/admin/yinsheng/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=4oe3i6uf5njp3pcp6k5bfan3v3; Hm_lvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1508203010; Hm_lpvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1508208650',
+)
+[ info ] [ PARAM ] array (
+  'cardNo' => '6214837846493702',
+  'name' => '余统和',
+  'idCardNo' => '450821198912055334',
+  'phoneNo' => '15814695088',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] osc\admin\controller\Yinsheng->get_scOrder[ D:\wamp64\www\dingsitong\oscshop\admin\controller\Yinsheng.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-17T18:00:19+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/Yinsheng/get_scOrder
+[ info ] oscshop2.com/admin/Yinsheng/get_scOrder [运行时间：0.241013s][吞吐率：4.15req/s] [内存消耗：2,562.33kb] [文件加载：45]
+[ info ] [ LANG ] D:\wamp64\www\dingsitong\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Yinsheng',
+    2 => 'get_scOrder',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'oscshop2.com',
+  'connection' => 'keep-alive',
+  'content-length' => '104',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://oscshop2.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://oscshop2.com/admin/yinsheng/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=4oe3i6uf5njp3pcp6k5bfan3v3; Hm_lvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1508203010; Hm_lpvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1508208650',
+)
+[ info ] [ PARAM ] array (
+  'cardNo' => '6214837846493702',
+  'name' => '余统和',
+  'idCardNo' => '450821198912055334',
+  'phoneNo' => '15814695088',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] osc\admin\controller\Yinsheng->get_scOrder[ D:\wamp64\www\dingsitong\oscshop\admin\controller\Yinsheng.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-17T18:00:32+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/yinsheng/index
+[ info ] oscshop2.com/admin/yinsheng/index [运行时间：0.076004s][吞吐率：13.16req/s] [内存消耗：2,905.72kb] [文件加载：50]
+[ info ] [ LANG ] D:\wamp64\www\dingsitong\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'yinsheng',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'oscshop2.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://oscshop2.com/admin/Yinsheng/orders?status=1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=4oe3i6uf5njp3pcp6k5bfan3v3; Hm_lvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1508203010; Hm_lpvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1508208650',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] osc\admin\controller\Yinsheng->index[ D:\wamp64\www\dingsitong\oscshop\admin\controller\Yinsheng.php ]
+[ info ] [ VIEW ] ./oscshop/admin\view\yinsheng\index.html [ array (
+  0 => 'admin_menu',
+  1 => 'breadcrumb1',
+  2 => 'breadcrumb2',
+  3 => 'order',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-17T18:00:50+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/Yinsheng/get_scOrder
+[ info ] oscshop2.com/admin/Yinsheng/get_scOrder [运行时间：0.181011s][吞吐率：5.52req/s] [内存消耗：2,562.13kb] [文件加载：45]
+[ info ] [ LANG ] D:\wamp64\www\dingsitong\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Yinsheng',
+    2 => 'get_scOrder',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'oscshop2.com',
+  'connection' => 'keep-alive',
+  'content-length' => '104',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://oscshop2.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://oscshop2.com/admin/yinsheng/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=4oe3i6uf5njp3pcp6k5bfan3v3; Hm_lvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1508203010; Hm_lpvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1508208650',
+)
+[ info ] [ PARAM ] array (
+  'cardNo' => '6214837846493702',
+  'name' => '余统和',
+  'idCardNo' => '450821198912055334',
+  'phoneNo' => '15814695088',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] osc\admin\controller\Yinsheng->get_scOrder[ D:\wamp64\www\dingsitong\oscshop\admin\controller\Yinsheng.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-17T18:02:25+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/Yinsheng/get_scOrder
+[ info ] oscshop2.com/admin/Yinsheng/get_scOrder [运行时间：0.255014s][吞吐率：3.92req/s] [内存消耗：2,562.33kb] [文件加载：45]
+[ info ] [ LANG ] D:\wamp64\www\dingsitong\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Yinsheng',
+    2 => 'get_scOrder',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'oscshop2.com',
+  'connection' => 'keep-alive',
+  'content-length' => '104',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://oscshop2.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://oscshop2.com/admin/yinsheng/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=4oe3i6uf5njp3pcp6k5bfan3v3; Hm_lvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1508203010; Hm_lpvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1508208650',
+)
+[ info ] [ PARAM ] array (
+  'cardNo' => '6214837846493702',
+  'name' => '余统和',
+  'idCardNo' => '450821198912055334',
+  'phoneNo' => '15814695088',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] osc\admin\controller\Yinsheng->get_scOrder[ D:\wamp64\www\dingsitong\oscshop\admin\controller\Yinsheng.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-17T18:02:27+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/Yinsheng/yinsheng_pay
+[ info ] oscshop2.com/admin/Yinsheng/yinsheng_pay [运行时间：0.173010s][吞吐率：5.78req/s] [内存消耗：2,561.74kb] [文件加载：45]
+[ info ] [ LANG ] D:\wamp64\www\dingsitong\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Yinsheng',
+    2 => 'yinsheng_pay',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'oscshop2.com',
+  'connection' => 'keep-alive',
+  'content-length' => '200',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://oscshop2.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://oscshop2.com/admin/yinsheng/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=4oe3i6uf5njp3pcp6k5bfan3v3; Hm_lvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1508203010; Hm_lpvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1508208650',
+)
+[ info ] [ PARAM ] array (
+  'cardNo' => '6214837846493702',
+  'name' => '余统和',
+  'idCardNo' => '450821198912055334',
+  'phoneNo' => '15814695088',
+  'amount' => '1',
+  'purpose' => '测试',
+  'subContractId' => '1204',
+  'orderId' => '99a3d65798fdf3bac76ba5ea83900272',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] osc\admin\controller\Yinsheng->yinsheng_pay[ D:\wamp64\www\dingsitong\oscshop\admin\controller\Yinsheng.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-17T18:02:53+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/Yinsheng/yinsheng_pay
+[ info ] oscshop2.com/admin/Yinsheng/yinsheng_pay [运行时间：0.152009s][吞吐率：6.58req/s] [内存消耗：2,562.36kb] [文件加载：45]
+[ info ] [ LANG ] D:\wamp64\www\dingsitong\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Yinsheng',
+    2 => 'yinsheng_pay',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'oscshop2.com',
+  'connection' => 'keep-alive',
+  'content-length' => '200',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://oscshop2.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://oscshop2.com/admin/yinsheng/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=4oe3i6uf5njp3pcp6k5bfan3v3; Hm_lvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1508203010; Hm_lpvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1508208650',
+)
+[ info ] [ PARAM ] array (
+  'cardNo' => '6214837846493702',
+  'name' => '余统和',
+  'idCardNo' => '450821198912055334',
+  'phoneNo' => '15814695088',
+  'amount' => '1',
+  'purpose' => '测试',
+  'subContractId' => '1204',
+  'orderId' => '99a3d65798fdf3bac76ba5ea83900272',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] osc\admin\controller\Yinsheng->yinsheng_pay[ D:\wamp64\www\dingsitong\oscshop\admin\controller\Yinsheng.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-17T18:04:37+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/Yinsheng/yinsheng_pay
+[ info ] oscshop2.com/admin/Yinsheng/yinsheng_pay [运行时间：0.257014s][吞吐率：3.89req/s] [内存消耗：2,562.44kb] [文件加载：45]
+[ info ] [ LANG ] D:\wamp64\www\dingsitong\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Yinsheng',
+    2 => 'yinsheng_pay',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'oscshop2.com',
+  'connection' => 'keep-alive',
+  'content-length' => '200',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://oscshop2.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://oscshop2.com/admin/yinsheng/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=4oe3i6uf5njp3pcp6k5bfan3v3; Hm_lvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1508203010; Hm_lpvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1508208650',
+)
+[ info ] [ PARAM ] array (
+  'cardNo' => '6214837846493702',
+  'name' => '余统和',
+  'idCardNo' => '450821198912055334',
+  'phoneNo' => '15814695088',
+  'amount' => '1',
+  'purpose' => '测试',
+  'subContractId' => '1204',
+  'orderId' => '99a3d65798fdf3bac76ba5ea83900272',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] osc\admin\controller\Yinsheng->yinsheng_pay[ D:\wamp64\www\dingsitong\oscshop\admin\controller\Yinsheng.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-17T18:07:13+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/Yinsheng/yinsheng_pay
+[ info ] oscshop2.com/admin/Yinsheng/yinsheng_pay [运行时间：0.204011s][吞吐率：4.90req/s] [内存消耗：2,562.44kb] [文件加载：45]
+[ info ] [ LANG ] D:\wamp64\www\dingsitong\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Yinsheng',
+    2 => 'yinsheng_pay',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'oscshop2.com',
+  'connection' => 'keep-alive',
+  'content-length' => '200',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://oscshop2.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://oscshop2.com/admin/yinsheng/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=4oe3i6uf5njp3pcp6k5bfan3v3; Hm_lvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1508203010; Hm_lpvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1508208650',
+)
+[ info ] [ PARAM ] array (
+  'cardNo' => '6214837846493702',
+  'name' => '余统和',
+  'idCardNo' => '450821198912055334',
+  'phoneNo' => '15814695088',
+  'amount' => '1',
+  'purpose' => '测试',
+  'subContractId' => '1204',
+  'orderId' => '99a3d65798fdf3bac76ba5ea83900272',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] osc\admin\controller\Yinsheng->yinsheng_pay[ D:\wamp64\www\dingsitong\oscshop\admin\controller\Yinsheng.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-17T18:08:27+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/Yinsheng/yinsheng_pay
+[ info ] oscshop2.com/admin/Yinsheng/yinsheng_pay [运行时间：0.171010s][吞吐率：5.85req/s] [内存消耗：2,562.95kb] [文件加载：45]
+[ info ] [ LANG ] D:\wamp64\www\dingsitong\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Yinsheng',
+    2 => 'yinsheng_pay',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'oscshop2.com',
+  'connection' => 'keep-alive',
+  'content-length' => '200',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://oscshop2.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://oscshop2.com/admin/yinsheng/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=4oe3i6uf5njp3pcp6k5bfan3v3; Hm_lvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1508203010; Hm_lpvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1508208650',
+)
+[ info ] [ PARAM ] array (
+  'cardNo' => '6214837846493702',
+  'name' => '余统和',
+  'idCardNo' => '450821198912055334',
+  'phoneNo' => '15814695088',
+  'amount' => '1',
+  'purpose' => '测试',
+  'subContractId' => '1204',
+  'orderId' => '99a3d65798fdf3bac76ba5ea83900272',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] osc\admin\controller\Yinsheng->yinsheng_pay[ D:\wamp64\www\dingsitong\oscshop\admin\controller\Yinsheng.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-17T18:17:16+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/Yinsheng/yinsheng_pay
+[ info ] oscshop2.com/admin/Yinsheng/yinsheng_pay [运行时间：0.152009s][吞吐率：6.58req/s] [内存消耗：2,563.03kb] [文件加载：45]
+[ info ] [ LANG ] D:\wamp64\www\dingsitong\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Yinsheng',
+    2 => 'yinsheng_pay',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'oscshop2.com',
+  'connection' => 'keep-alive',
+  'content-length' => '200',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://oscshop2.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://oscshop2.com/admin/yinsheng/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=4oe3i6uf5njp3pcp6k5bfan3v3; Hm_lvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1508203010; Hm_lpvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1508208650',
+)
+[ info ] [ PARAM ] array (
+  'cardNo' => '6214837846493702',
+  'name' => '余统和',
+  'idCardNo' => '450821198912055334',
+  'phoneNo' => '15814695088',
+  'amount' => '1',
+  'purpose' => '测试',
+  'subContractId' => '1204',
+  'orderId' => '99a3d65798fdf3bac76ba5ea83900272',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] osc\admin\controller\Yinsheng->yinsheng_pay[ D:\wamp64\www\dingsitong\oscshop\admin\controller\Yinsheng.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-17T18:21:53+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/Yinsheng/yinsheng_pay
+[ info ] oscshop2.com/admin/Yinsheng/yinsheng_pay [运行时间：0.169010s][吞吐率：5.92req/s] [内存消耗：2,563.03kb] [文件加载：45]
+[ info ] [ LANG ] D:\wamp64\www\dingsitong\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Yinsheng',
+    2 => 'yinsheng_pay',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'oscshop2.com',
+  'connection' => 'keep-alive',
+  'content-length' => '200',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://oscshop2.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://oscshop2.com/admin/yinsheng/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=4oe3i6uf5njp3pcp6k5bfan3v3; Hm_lvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1508203010; Hm_lpvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1508208650',
+)
+[ info ] [ PARAM ] array (
+  'cardNo' => '6214837846493702',
+  'name' => '余统和',
+  'idCardNo' => '450821198912055334',
+  'phoneNo' => '15814695088',
+  'amount' => '1',
+  'purpose' => '测试',
+  'subContractId' => '1204',
+  'orderId' => '99a3d65798fdf3bac76ba5ea83900272',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] osc\admin\controller\Yinsheng->yinsheng_pay[ D:\wamp64\www\dingsitong\oscshop\admin\controller\Yinsheng.php ]
+[ info ] [ LOG ] INIT File

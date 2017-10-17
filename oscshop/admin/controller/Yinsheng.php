@@ -45,7 +45,8 @@ class Yinsheng extends AdminBase{
 		];
 		$str = "accountId=".$accountId."&subContractId=".$postData['subContractId']."&orderId=".$postData['orderId']."&purpose=".$postData['purpose']."&amount=".$postData['amount']."&phoneNo=".$postData['phoneNo']."&responseUrl=".$postData['responseUrl']."&key=".$key;
 		$postData['mac'] = strtoupper(md5($str));
-		$result = create_request($url, $postData);
+		$result = create_request($url, json_encode($postData));
+		$result['subContractId'] =  $postData['subContractId'];
 		if($result['result_code'] == '0000'){
 			$data = array(
 				 'accountId' => $accountId,
@@ -60,6 +61,10 @@ class Yinsheng extends AdminBase{
 				'create_time' => time(),
 			);
 			Db::name('yingsheng_orders')->insert($data);
+		}else{
+			$postData['result_code']  = '1111';
+			$postData['result_msg'] = $result['result_msg'];
+			echo json_encode($postData);exit;
 		}
 		echo json_encode($result);exit;
 	}
@@ -105,7 +110,7 @@ class Yinsheng extends AdminBase{
 		];
 		$str = "accountId=".$accountId."&contractId=".$contractId."&name=".$postData['name']."&phoneNo=".$postData['phoneNo']."&cardNo=".$postData['cardNo']."&idCardNo=".$postData['idCardNo']."&startDate=".$postData['startDate']."&endDate=".$postData['endDate']."&key=".$key;
 		$postData['mac'] = strtoupper(md5($str));
-		$result = create_request($url, $postData);
+		$result = create_request($url, json_encode($postData));
 		echo json_encode($result);exit;
 	}
 
