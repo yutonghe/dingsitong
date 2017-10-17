@@ -498,30 +498,16 @@ function get_order_num(){
  *      @return     json        $rs            接口返回数据,此demo中为返回json数据
  */
 function create_request($url, $postData){
-	try {
 		$ch = curl_init();
 		curl_setopt($ch, CURLOPT_URL, $url);
 		curl_setopt($ch, CURLOPT_HEADER, 0);
 		curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
 		curl_setopt($ch, CURLOPT_POST, 1);
 		curl_setopt($ch, CURLOPT_POSTFIELDS, $postData);
-		$res = curl_exec($ch);
-		curl_close($ch);
-		return json_decode($res, true);
-	} catch (Exception $e) {
-		return $e->getMessage();
-	}
-}
-
-function getSign($data, $key){
-	$query = '';
-	ksort($data);
-	foreach($data as $k => $v) {
-		if("" != $v && "sign" != $k) {
-			$query .= $k . "=" . $v . "&";
+		$res = json_decode(curl_exec($ch), true);
+		if(curl_errno($ch)){
+			$res =  array('result_code'=> '5000', 'result_msg' => curl_error($ch));
 		}
-	}
-	$query .= 'key='.$key;
-	$sign = strtoupper(MD5($query));
-	return $sign;
+		curl_close($ch);
+		return $res;
 }
