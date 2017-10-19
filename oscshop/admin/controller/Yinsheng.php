@@ -89,7 +89,8 @@ class Yinsheng extends AdminBase{
 
 	//获取子协议
 	public function get_scOrder(){
-		$url = config('yinsheng_pay.signSimpleSubContract');
+		$result = osc_service('admin','yinsheng')->get_sc_order();
+		/*$url = config('yinsheng_pay.signSimpleSubContract');
 		$contractId = config('yinsheng_pay.contractId');
 		$accountId = config('yinsheng_pay.accountId');
 		$key = config('yinsheng_pay.accountKey');
@@ -106,7 +107,7 @@ class Yinsheng extends AdminBase{
 		];
 		$str = "accountId=".$accountId."&contractId=".$contractId."&name=".$postData['name']."&phoneNo=".$postData['phoneNo']."&cardNo=".$postData['cardNo']."&idCardNo=".$postData['idCardNo']."&startDate=".$postData['startDate']."&endDate=".$postData['endDate']."&key=".$key;
 		$postData['mac'] = strtoupper(md5($str));
-		$result = create_request($url, json_encode($postData));
+		$result = create_request($url, json_encode($postData));*/
 		echo json_encode($result);exit;
 	}
 

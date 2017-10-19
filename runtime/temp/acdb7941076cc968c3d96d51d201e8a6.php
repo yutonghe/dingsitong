@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:40:"./oscshop/admin\view\yinsheng\index.html";i:1508298279;s:37:"./oscshop/admin\view\public\base.html";i:1508202076;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:38:"./oscshop/admin\view\module\index.html";i:1508202076;s:37:"./oscshop/admin\view\public\base.html";i:1508202076;}*/ ?>
 <!DOCTYPE html>
 <html lang="en">
 	<head>
@@ -204,95 +204,54 @@
 				<div class="main-content-inner">
 					<div class="page-content">
 						
-<link rel="stylesheet" href="__ADMIN__/css/index.css" />
-<div>
-	<div class="page-header">
-		<h1>
-			<?php echo $breadcrumb1; ?>
-			<small>
-				<i class="ace-icon fa fa-angle-double-right"></i>
-				<?php echo $breadcrumb2; ?>
-			</small>
-		</h1>
+<div class="page-header">
+	<h1>	
+		<?php echo $breadcrumb1; ?>
+		<small>
+			<i class="ace-icon fa fa-angle-double-right"></i>
+			<?php echo $breadcrumb2; ?>
+		</small>
+	</h1>
+</div>	
+	
+<div class="row">
+	<div class="col-xs-12">	
+		<div class="table-responsive">
+			<table class="table table-striped table-bordered table-hover">
+				<thead>
+					<tr>
+						<td>模块</td> 
+						<td>模块名称</td> 	
+						<td>依赖的模块</td> 	
+						<td>作者</td>	
+						<td>描述</td>
+						<td>状态</td>
+						<td>操作</td>				
+					</tr>
+				</thead>
+				<tbody>
+						
+				<?php if(is_array($list) || $list instanceof \think\Collection || $list instanceof \think\Paginator): $i = 0; $__LIST__ = $list;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$module): $mod = ($i % 2 );++$i;?>
+					<tr>
+						<td><?php echo $module['module']; ?></td>
+						<td><?php echo $module['modulename']; ?></td>
+						<td><?php echo $module['base_module']; ?></td>
+						<td><?php echo $module['author']; ?></td>
+						<td><?php echo $module['description']; ?></td>
+						<td>
+							<?php switch($module['disabled']): case "1": ?><span class="green">已经安装</span> <?php break; case "0": ?><span class="red">未安装</span><?php break; endswitch; ?>
+						</td>
+						<td>
+							<?php switch($module['disabled']): case "1": ?><a title="点击卸载" href='<?php echo \think\Request::instance()->root(true); ?>/<?php echo $module['module']; ?>/install/uninstall'><span id="<?php echo $module['module']; ?>" class="del btn btn-xs btn-danger"><i class="fa fa-minus-circle bigger-120"></i></span></a><?php break; case "0": ?><a title="点击安装" href='<?php echo \think\Request::instance()->root(true); ?>/<?php echo $module['module']; ?>/install/install'><span class="btn btn-xs btn-success"><i class="fa fa-plus-circle bigger-120"></i></span></a><?php break; endswitch; ?>
+						</td>
+					</tr>
+				<?php endforeach; endif; else: echo "" ;endif; ?>
+						
+				</tbody>
+				
+			</table>
+		</div>
 	</div>
-	<div class="col-xs-3"></div>
-	<form id="form" class="col-xs-6">
-		<div class="form-horizontal">
-			<div class="form-group">
-				<label class="col-sm-2 control-label no-padding-left">银行卡号 </label>
-				<div class="col-sm-10">
-					<div class="clearfix">
-						<input type="text" name="cardNo" id="cardNo" value="" maxlength="25" class="form-control"/>
-					</div>
-				</div>
-			</div>
-			<div class="form-group">
-				<label class="col-sm-2 control-label no-padding-left">用户姓名 </label>
-				<div class="col-sm-10">
-					<div class="clearfix">
-						<input type="text" name="name" id="name" value="" maxlength="32" class="form-control"/>
-					</div>
-				</div>
-			</div>
-			<div class="form-group">
-				<label class="col-sm-2 control-label no-padding-left">身份证号 </label>
-				<div class="col-sm-10">
-					<div class="clearfix">
-						<input type="text" name="idCardNo" id="idCardNo" value="" maxlength="18" class="form-control"/>
-					</div>
-				</div>
-			</div>
-			<div class="form-group">
-				<label class="col-sm-2 control-label no-padding-left">手机号 </label>
-				<div class="col-sm-10">
-					<div class="clearfix">
-						<input type="text" name="phoneNo" id="phoneNo" value="" class="form-control" maxlength="11"/>
-					</div>
-				</div>
-			</div>
-			<div class="form-group">
-				<label class="col-sm-2 control-label no-padding-left">金额(元) </label>
-				<div class="col-sm-10">
-					<div class="clearfix">
-						<input type="text" name="amount" id="amount" value="" class="form-control" maxlength="11"/>
-					</div>
-				</div>
-			</div>
-			<div class="form-group">
-				<label class="col-sm-2 control-label no-padding-left">扣款目的 </label>
-				<div class="col-sm-10">
-					<div class="clearfix">
-						<input type="text" name="purpose" id="purpose" class="form-control" value="" maxlength="32"/>
-					</div>
-				</div>
-			</div>
-			<div class="form-group">
-				<label class="col-sm-2 control-label no-padding-left">子协议 </label>
-				<div class="col-sm-10">
-					<div class="clearfix">
-						<input type="text" name="subContractId" id="subContractId" value="" class="form-control col-sm-8" maxlength="11" style="width:66.66666666666%"/>
-						<button id="scOrder" class="btn btn-sm btn-primary col-sm-4">获取子协议</button>
-					</div>
-				</div>
-			</div>
-			<div class="form-group">
-				<label class="col-sm-2 control-label no-padding-left">订单号 </label>
-				<div class="col-sm-10">
-					<div class="clearfix">
-						<input type="text" name="orderId" id="orderId" class="form-control" readonly value="<?php echo $order; ?>"/>
-					</div>
-				</div>
-			</div>
-
-		</div>
-		<div class="form-group">
-			<label class="col-sm-4 control-label no-padding-left"> </label>
-			<div class="col-sm-8">
-				<button type="submit" id="send" class="btn btn-sm btn-primary" style="width:120px;margin-right:30px">提交</button>
-				<button type="reset" id="reset" class="btn btn-sm btn-primary" style="width:120px">重置</button>
-			</div>
-		</div>
-	</form>
 </div>
 
 					</div><!-- /.page-content -->
@@ -336,63 +295,25 @@
 
 		
 <script>
-	//获取订单号
-	$('#scOrder').on('click', function(){
-		var postdata = {
-			'cardNo': $('#cardNo').val(),
-			'name': $('#name').val(),
-			'idCardNo': $('#idCardNo').val(),
-			'phoneNo': $('#phoneNo').val(),
-		};
-		$.ajax({
-			url: "<?php echo url('Yinsheng/get_scOrder'); ?>",
-			type: 'post',
-			dataType: 'json',
-			data: postdata,
-			success: function(res){
-				if(res.result_code == '0000' && res.status == '00') {
-					$('#subContractId').val(res.subContractId);
-				}else{
-					alert(res.result_msg);
-				}
-			},
-			error: function(){
-				alert('服务器出错');
-			}
-		});
+$('.del').click(function(){
+	var module=$(this).attr('id');		
+	
+	var info='确认要执行该操作吗？';
+	
+	if(module=='member'){
+		info='该操作将删除用户数据，订单数据，确认要执行该操作吗？';
+	}
+	if(module=='mobile'){
+		info='该操作将删除代理商数据，自动回复数据，确认要执行该操作吗？';
+	}
+	
+	var f=confirm(info);
+	if(f==false){
 		return false;
-	});
-
-	//提交
-	$('#form').on('submit', function(){
-		var postdata = {
-			'cardNo': $('#cardNo').val(),
-			'name': $('#name').val(),
-			'idCardNo': $('#idCardNo').val(),
-			'phoneNo': $('#phoneNo').val(),
-			'amount': $('#amount').val(),
-			'purpose': $('#purpose').val(),
-			'subContractId': $('#subContractId').val(),
-			'orderId': $('#orderId').val(),
-		};
-		$.ajax({
-			url: "<?php echo url('Yinsheng/yinsheng_pay'); ?>",
-			type: 'post',
-			dataType: 'json',
-			data: postdata,
-			success: function(res){
-				alert(res.result_msg);
-				if(res.result_code == '0000') {
-					$('#reset').click();
-				}
-			},
-			error: function(){
-				alert('服务器出错');
-			}
-		});
-		return false;
-	})
-</script>
+	}
+			
+});
+</script>							
 
 	</body>
 </html>

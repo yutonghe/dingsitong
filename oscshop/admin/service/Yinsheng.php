@@ -13,7 +13,7 @@
  * 银生代扣
  * 
  */
-namespace osc\common\service;
+namespace osc\admin\service;
 class Yinsheng{
 
 	private $conf = [

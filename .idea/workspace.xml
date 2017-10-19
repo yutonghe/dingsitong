@@ -2,11 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cc65961c-7afc-4a36-8845-43fe459170ba" name="默认的" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oscshop/common/service/Yinsheng.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/runtime/log/201710/17.log" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dos/深圳市安泰茂贸易有限公司.txt" afterPath="$PROJECT_DIR$/dos/深圳市安泰茂贸易有限公司.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/oscshop/admin/controller/Yinsheng.php" afterPath="$PROJECT_DIR$/oscshop/admin/controller/Yinsheng.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/oscshop/admin/view/yinsheng/index.html" afterPath="$PROJECT_DIR$/oscshop/admin/view/yinsheng/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/oscshop/common.php" afterPath="$PROJECT_DIR$/oscshop/common.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/oscshop/config.php" afterPath="$PROJECT_DIR$/oscshop/config.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/runtime/cache/22/884db148f0ffb0d830ba431102b0b5.php" afterPath="$PROJECT_DIR$/runtime/cache/22/884db148f0ffb0d830ba431102b0b5.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/runtime/cache/50/e42e2e0c46db6eb01ed4a3be845c44.php" afterPath="$PROJECT_DIR$/runtime/cache/50/e42e2e0c46db6eb01ed4a3be845c44.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/runtime/temp/475565c33ce9db7173c171faeffa944f.php" afterPath="$PROJECT_DIR$/runtime/temp/475565c33ce9db7173c171faeffa944f.php" />
     </list>
     <ignored path="dingsitong.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -27,34 +30,47 @@
     <favorites_list name="dingsitong" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="Yinsheng.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/oscshop/admin/controller/Yinsheng.php">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="AdminBase.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/oscshop/common/controller/AdminBase.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.62616825">
-              <caret line="65" column="62" selection-start-line="65" selection-start-column="60" selection-end-line="65" selection-end-column="60" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="orders.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/oscshop/admin/view/yinsheng/orders.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="5.806452">
-              <caret line="67" column="46" selection-start-line="67" selection-start-column="46" selection-end-line="67" selection-end-column="46" />
+            <state vertical-scroll-proportion="-3.764706">
+              <caret line="22" column="60" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="60" />
               <folding>
-                <element signature="n#style#0;n#a#0;n#th#3;n#thead#0;n#table#0;n#!!top" expanded="true" />
+                <marker date="1508392195984" expanded="true" signature="1466:1564" placeholder="select * fro... ${config('database.prefix')}" />
+                <marker date="1508392195984" expanded="true" signature="1711:1930" placeholder="select m.* f... ${config('database.prefix')}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="common.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/oscshop/common.php">
+      <file leaf-file-name="Yinsheng.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/oscshop/admin/service/Yinsheng.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-2.451613">
-              <caret line="502" column="33" selection-start-line="502" selection-start-column="33" selection-end-line="502" selection-end-column="33" />
+            <state vertical-scroll-proportion="0.07239819">
+              <caret line="15" column="19" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MerchantBase.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/oscshop/common/controller/MerchantBase.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-7.7419353">
+              <caret line="15" column="10" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
+              <folding>
+                <element signature="e#6#41#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/static/view_res/merchant/css/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-20.352942">
+              <caret line="59" column="21" selection-start-line="59" selection-start-column="21" selection-end-line="59" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -63,9 +79,24 @@
       <file leaf-file-name="config.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/oscshop/config.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.548387">
-              <caret line="41" column="125" selection-start-line="41" selection-start-column="125" selection-end-line="41" selection-end-column="125" />
+            <state vertical-scroll-proportion="-18.470589">
+              <caret line="47" column="5" selection-start-line="37" selection-start-column="4" selection-end-line="47" selection-end-column="5" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/oscshop/merchant/view/index/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-56.47059">
+              <caret line="78" column="33" selection-start-line="78" selection-start-column="18" selection-end-line="78" selection-end-column="18" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#input#0;n#div#0;n#div#0;n#div#6;n#div#0;n#form#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#button#0;n#div#0;n#div#0;n#div#6;n#div#0;n#form#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#form#0;n#div#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -73,8 +104,30 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/oscshop/admin/view/yinsheng/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.096774">
-              <caret line="141" column="36" selection-start-line="141" selection-start-column="36" selection-end-line="141" selection-end-column="36" />
+            <state vertical-scroll-proportion="-37.294117">
+              <caret line="97" column="48" selection-start-line="97" selection-start-column="41" selection-end-line="97" selection-end-column="41" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Yinsheng.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/oscshop/admin/controller/Yinsheng.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-2.516129">
+              <caret line="16" column="33" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
+              <folding>
+                <element signature="e#396#432#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="User.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/oscshop/admin/service/User.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-3.764706">
+              <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -85,17 +138,28 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="mock:///Dummy.txt" root0="SKIP_INSPECTION" />
-  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/oscshop/admin/view/yinsheng/orders.html" />
-        <option value="$PROJECT_DIR$/oscshop/config.php" />
         <option value="$PROJECT_DIR$/oscshop/common.php" />
+        <option value="$PROJECT_DIR$/oscshop/config.php" />
+        <option value="$PROJECT_DIR$/oscshop/admin/view/yinsheng/order_time.html" />
         <option value="$PROJECT_DIR$/oscshop/admin/view/yinsheng/index.html" />
+        <option value="$PROJECT_DIR$/oscshop/admin/service/User.php" />
+        <option value="$PROJECT_DIR$/oscshop/member/controller/Login.php" />
+        <option value="$PROJECT_DIR$/oscshop/common/controller/AdminBase.php" />
+        <option value="$PROJECT_DIR$/oscshop/merchant/service/User.php" />
+        <option value="$PROJECT_DIR$/oscshop/common/controller/MerchantBase.php" />
+        <option value="$PROJECT_DIR$/oscshop/merchant/module.php" />
+        <option value="$PROJECT_DIR$/oscshop/install/config.php" />
+        <option value="$PROJECT_DIR$/oscshop/merchant/view/public/base.html" />
+        <option value="$PROJECT_DIR$/oscshop/merchant/controller/Index.php" />
+        <option value="$PROJECT_DIR$/public/static/view_res/merchant/css/style.css" />
+        <option value="$PROJECT_DIR$/oscshop/merchant/view/index/index.html" />
+        <option value="$PROJECT_DIR$/oscshop/common/service/Yinsheng.php" />
         <option value="$PROJECT_DIR$/oscshop/admin/controller/Yinsheng.php" />
+        <option value="$PROJECT_DIR$/oscshop/admin/service/Yinsheng.php" />
       </list>
     </option>
   </component>
@@ -103,6 +167,9 @@
   <component name="JsBuildToolPackageJson" detection-done="true" />
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
+  </component>
+  <component name="PhpServers">
+    <servers />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
@@ -124,7 +191,7 @@
     <OptionsSetting value="true" id="更新" />
     <OptionsSetting value="true" id="状态" />
     <OptionsSetting value="true" id="编辑" />
-    <ConfirmationsSetting value="0" id="添加" />
+    <ConfirmationsSetting value="1" id="添加" />
     <ConfirmationsSetting value="0" id="移除" />
   </component>
   <component name="ProjectView">
@@ -188,6 +255,68 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="common" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dingsitong" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dingsitong" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="oscshop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="common" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="service" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dingsitong" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dingsitong" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="oscshop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="common" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controller" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dingsitong" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dingsitong" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="oscshop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="admin" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -210,7 +339,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="model" />
+              <option name="myItemId" value="service" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -247,6 +376,11 @@
     <property name="settings.editor.selected.configurable" value="editor.preferences.appearance" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\wamp64\www\dingsitong\oscshop\admin\view\yinsheng" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
       <method />
@@ -263,6 +397,11 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
@@ -291,63 +430,369 @@
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1421875" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="版本控制" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="调试" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32946146" sideWeight="0.50208336" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Command Line Tools Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32946146" sideWeight="0.49791667" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="版本控制" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32946146" sideWeight="0.50208336" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="运行" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="调试" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Command Line Tools Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32946146" sideWeight="0.49791667" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="运行" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/oscshop/admin/controller/Attribute.php</url>
+          <line>14</line>
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="1" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/oscshop/index/controller/Goods.php">
+    <entry file="file://$PROJECT_DIR$/oscshop/admin/validate/Menu.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.61538464">
-          <caret line="31" column="46" selection-start-line="31" selection-start-column="46" selection-end-line="31" selection-end-column="46" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/oscshop/admin/controller/Option.php">
+    <entry file="file://$PROJECT_DIR$/oscshop/admin/validate/Category.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.77375567">
-          <caret line="117" column="38" selection-start-line="117" selection-start-column="20" selection-end-line="117" selection-end-column="38" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/oscshop/admin/controller/AuthManager.php">
+    <entry file="file://$PROJECT_DIR$/oscshop/admin/controller/Config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.0769231">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oscshop/route.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5294118">
-          <caret line="121" column="55" selection-start-line="121" selection-start-column="30" selection-end-line="121" selection-end-column="55" />
+          <caret line="43" column="74" selection-start-line="43" selection-start-column="47" selection-end-line="43" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thinkphp/base.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.4479638">
+          <caret line="17" column="56" selection-start-line="17" selection-start-column="48" selection-end-line="17" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thinkphp/console.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thinkphp/convention.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.678733">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thinkphp/helper.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.18099548">
+          <caret line="415" column="29" selection-start-line="415" selection-start-column="29" selection-end-line="415" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thinkphp/start.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.32579187">
+          <caret line="17" column="25" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/router.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.108597286">
+          <caret line="12" column="74" selection-start-line="12" selection-start-column="67" selection-end-line="12" selection-end-column="67" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oscshop/member/module.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oscshop/member/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oscshop/member/view/cart/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.1040726">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oscshop/member/view/account/profile.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oscshop/member/view/menu_backend/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.62896">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oscshop/member/view/file_manager/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.049774">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1508202077048" expanded="true" signature="4544:4558" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oscshop/member/view/checkout/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.14479639">
+          <caret line="4" column="46" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
+          <folding>
+            <marker date="1508202077048" expanded="true" signature="5941:5955" placeholder="..." />
+            <marker date="1508202077048" expanded="true" signature="7734:7748" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oscshop/merchant/install/install.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3712297">
+          <caret line="88" column="110" selection-start-line="88" selection-start-column="54" selection-end-line="88" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oscshop/merchant/install/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oscshop/member/view/public/member.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.0588236">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1508202077125" expanded="true" signature="5788:5902" placeholder="..." />
+            <marker date="1508202077125" expanded="true" signature="6179:6293" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oscshop/install/common.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.3438916">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oscshop/merchant/module.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.28959277">
+          <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oscshop/merchant/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.28959277">
+          <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oscshop/merchant/service/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.43438914">
+          <caret line="23" column="27" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oscshop/install/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.25339368">
+          <caret line="7" column="54" selection-start-line="7" selection-start-column="54" selection-end-line="7" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oscshop/admin/view/index/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="3.1357467">
+          <caret line="169" column="0" selection-start-line="169" selection-start-column="0" selection-end-line="169" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oscshop/admin/view/public/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.25339368">
+          <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="75" />
+          <folding>
+            <marker date="1508202076556" expanded="true" signature="6582:6696" placeholder="..." />
+            <marker date="1508202076556" expanded="true" signature="6973:7087" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oscshop/merchant/controller/Index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.225806">
+          <caret line="14" column="51" selection-start-line="14" selection-start-column="48" selection-end-line="14" selection-end-column="48" />
+          <folding>
+            <element signature="e#6#48#0#PHP" expanded="true" />
+            <element signature="e#84#123#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oscshop/merchant/view/public/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.4579439">
+          <caret line="66" column="49" selection-start-line="66" selection-start-column="37" selection-end-line="66" selection-end-column="49" />
+          <folding>
+            <element signature="n#style#0;n#li#1;n#ul#0;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/static/view_res/merchant/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-20.352942">
+          <caret line="59" column="21" selection-start-line="59" selection-start-column="21" selection-end-line="59" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oscshop/merchant/view/index/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-56.47059">
+          <caret line="78" column="33" selection-start-line="78" selection-start-column="18" selection-end-line="78" selection-end-column="18" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#div#0;n#div#0;n#div#6;n#div#0;n#form#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#div#0;n#div#0;n#div#6;n#div#0;n#form#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#form#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oscshop/common/service/System.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.43438914">
+          <caret line="25" column="36" selection-start-line="25" selection-start-column="36" selection-end-line="25" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oscshop/common/service/Order.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.8461539">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1508202076596" expanded="true" signature="1751:1919" placeholder="INSERT INTO ${config('database.prefix')}order_history... " />
+            <marker date="1508202076596" expanded="true" signature="5938:6339" placeholder="INSERT INTO ${config('database.prefix')}order_option... " />
+            <marker date="1508202076596" expanded="true" signature="6484:6716" placeholder="INSERT INTO ${config('database.prefix')}order_total... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oscshop/admin/view/yinsheng/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-37.294117">
+          <caret line="97" column="48" selection-start-line="97" selection-start-column="41" selection-end-line="97" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oscshop/helper.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.35859728">
+          <caret line="28" column="16" selection-start-line="28" selection-start-column="16" selection-end-line="28" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oscshop/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-18.470589">
+          <caret line="47" column="5" selection-start-line="37" selection-start-column="4" selection-end-line="47" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/oscshop/admin/controller/Attribute.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.39819005">
-          <caret line="26" column="70" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="68" />
+        <state vertical-scroll-proportion="-3.6923077">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
+            <element signature="e#396#432#0#PHP" expanded="true" />
             <marker date="1508202076383" expanded="true" signature="2908:3143" placeholder="SELECT attri... ${config('database.prefix')}" />
             <marker date="1508202076383" expanded="true" signature="3168:3364" placeholder="SELECT attri... ${config('database.prefix')}" />
             <marker date="1508202076383" expanded="true" signature="3848:3970" placeholder="SELECT attri... ${config('database.prefix')}" />
@@ -356,26 +801,82 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/oscshop/admin/controller/WeightClass.php">
+    <entry file="file://$PROJECT_DIR$/oscshop/admin/controller/AuthManager.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.95475113">
+        <state vertical-scroll-proportion="-3.4162896">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/oscshop/member/controller/Account.php">
+    <entry file="file://$PROJECT_DIR$/oscshop/admin/controller/Index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3325527">
-          <caret line="52" column="28" selection-start-line="52" selection-start-column="25" selection-end-line="52" selection-end-column="28" />
+        <state vertical-scroll-proportion="-2.0633485">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1508202076407" expanded="true" signature="911:969" placeholder="SELECT ua_id... ${config('database.prefix')}" />
+            <marker date="1508202076407" expanded="true" signature="1028:1103" placeholder="SELECT ua_id... ${config('database.prefix')}" />
+            <marker date="1508202076407" expanded="true" signature="1192:1259" placeholder="SELECT uid f... ${config('database.prefix')}" />
+            <marker date="1508202076407" expanded="true" signature="1809:1985" placeholder="SELECT SUM(t... ${config('database.prefix')}" />
+            <marker date="1508202076407" expanded="true" signature="2788:2856" placeholder="SELECT count... ${config('database.prefix')}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oscshop/admin/controller/Login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.54298645">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oscshop/admin/controller/Option.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.760181">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oscshop/admin/controller/Goods.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.2669684">
+          <caret line="30" column="45" selection-start-line="30" selection-start-column="14" selection-end-line="30" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oscshop/admin/controller/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.7420814">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oscshop/admin/controller/Menu.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.1719458">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1508202076409" expanded="true" signature="682:772" placeholder="SELECT id,pi... ${config('database.prefix')}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oscshop/admin/controller/UserAction.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/oscshop/common/service/Goods.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7081448">
-          <caret line="60" column="52" selection-start-line="60" selection-start-column="29" selection-end-line="60" selection-end-column="52" />
+        <state vertical-scroll-proportion="-0.057692308">
+          <caret line="29" column="48" selection-start-line="29" selection-start-column="48" selection-end-line="29" selection-end-column="48" />
           <folding>
             <marker date="1508202076596" expanded="true" signature="3497:3609" placeholder="SELECT goods... ${config('database.prefix')}" />
             <marker date="1508202076596" expanded="true" signature="3802:3969" placeholder="SELECT * FRO... ${config('database.prefix')}" />
@@ -387,93 +888,49 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/oscshop/admin/view/goods/index.html">
+    <entry file="file://$PROJECT_DIR$/oscshop/admin/controller/Yinsheng.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="2.3393664">
-          <caret line="225" column="11" selection-start-line="214" selection-start-column="4" selection-end-line="225" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/oscshop/admin/model/Goods.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.43438914">
-          <caret line="83" column="47" selection-start-line="83" selection-start-column="41" selection-end-line="83" selection-end-column="47" />
-          <folding>
-            <marker date="1508202076416" expanded="true" signature="2764:2908" placeholder="INSERT INTO ${config('database.prefix')}goods_to_category... " />
-            <marker date="1508202076416" expanded="true" signature="3057:3178" placeholder="INSERT INTO ${config('database.prefix')}goods_attribute... " />
-            <marker date="1508202076416" expanded="true" signature="3331:3439" placeholder="INSERT INTO ${config('database.prefix')}goods_brand... " />
-            <marker date="1508202076416" expanded="true" signature="3585:3722" placeholder="INSERT INTO ${config('database.prefix')}goods_image... " />
-            <marker date="1508202076416" expanded="true" signature="3892:4112" placeholder="INSERT INTO ${config('database.prefix')}goods_mobile_description_image... " />
-            <marker date="1508202076416" expanded="true" signature="4288:4443" placeholder="INSERT INTO ${config('database.prefix')}goods_discount... " />
-            <marker date="1508202076416" expanded="true" signature="5243:5898" placeholder="INSERT INTO ${config('database.prefix')}goods_option_value... " />
-            <marker date="1508202076416" expanded="true" signature="7173:7822" placeholder="INSERT INTO ${config('database.prefix')}goods_option_value... " />
-            <marker date="1508202076416" expanded="true" signature="10274:10447" placeholder="SELECT gc.na... ${config('database.prefix')}" />
-            <marker date="1508202076416" expanded="true" signature="10495:10705" placeholder="SELECT av.at... ${config('database.prefix')}" />
-            <marker date="1508202076416" expanded="true" signature="10749:10905" placeholder="SELECT b.nam... ${config('database.prefix')}" />
-            <marker date="1508202076416" expanded="true" signature="11217:11322" placeholder="INSERT INTO ${config('database.prefix')}goods_to_category... " />
-            <marker date="1508202076416" expanded="true" signature="11558:11667" placeholder="INSERT INTO ${config('database.prefix')}goods_attribute... " />
-            <marker date="1508202076416" expanded="true" signature="11884:11980" placeholder="INSERT INTO ${config('database.prefix')}goods_brand... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/oscshop/helper.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.34615386">
-          <caret line="46" column="54" selection-start-line="46" selection-start-column="53" selection-end-line="46" selection-end-column="53" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/oscshop/admin/controller/Goods.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3325792">
-          <caret line="50" column="22" selection-start-line="50" selection-start-column="22" selection-end-line="50" selection-end-column="22" />
+        <state vertical-scroll-proportion="-2.516129">
+          <caret line="16" column="33" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
           <folding>
             <element signature="e#396#432#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/oscshop/admin/view/yinsheng/orders.html">
+    <entry file="file://$PROJECT_DIR$/oscshop/admin/service/User.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="5.806452">
-          <caret line="67" column="46" selection-start-line="67" selection-start-column="46" selection-end-line="67" selection-end-column="46" />
+        <state vertical-scroll-proportion="-3.764706">
+          <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oscshop/common/controller/MerchantBase.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.7419353">
+          <caret line="15" column="10" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
           <folding>
-            <element signature="n#style#0;n#a#0;n#th#3;n#thead#0;n#table#0;n#!!top" expanded="true" />
+            <element signature="e#6#41#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/oscshop/common.php">
+    <entry file="file://$PROJECT_DIR$/oscshop/common/controller/AdminBase.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.451613">
-          <caret line="502" column="33" selection-start-line="502" selection-start-column="33" selection-end-line="502" selection-end-column="33" />
-          <folding />
+        <state vertical-scroll-proportion="-3.764706">
+          <caret line="22" column="60" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="60" />
+          <folding>
+            <marker date="1508392195984" expanded="true" signature="1466:1564" placeholder="select * fro... ${config('database.prefix')}" />
+            <marker date="1508392195984" expanded="true" signature="1711:1930" placeholder="select m.* f... ${config('database.prefix')}" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/oscshop/config.php">
+    <entry file="file://$PROJECT_DIR$/oscshop/admin/service/Yinsheng.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.548387">
-          <caret line="41" column="125" selection-start-line="41" selection-start-column="125" selection-end-line="41" selection-end-column="125" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/oscshop/admin/view/yinsheng/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.096774">
-          <caret line="141" column="36" selection-start-line="141" selection-start-column="36" selection-end-line="141" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/oscshop/admin/controller/Yinsheng.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.62616825">
-          <caret line="65" column="62" selection-start-line="65" selection-start-column="60" selection-end-line="65" selection-end-column="60" />
+        <state vertical-scroll-proportion="0.07239819">
+          <caret line="15" column="19" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
           <folding />
         </state>
       </provider>

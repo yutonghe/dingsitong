@@ -14,7 +14,7 @@
 
 后台地址：http://180.166.114.155/unspay/main.do
 
-代扣：http://180.166.114.155:8081/unspay-external/
+代扣：http://180.166.114.155:58082/delegate-collect-front/
 注：地址提供前面相同的ip：port和项目名 后面的接口请自行对照接口文档补全
 
 
