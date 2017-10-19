@@ -31,7 +31,8 @@ class Yinsheng extends AdminBase{
 
 	//支付调用接口
 	public function yinsheng_pay(){
-		$url = config('yinsheng_pay.signSimpleSubContract');
+		$result = osc_service('admin','yinsheng')->yinsheng_pay();
+		/*$url = config('yinsheng_pay.collect');
 		$accountId = config('yinsheng_pay.accountId');
 		$key = config('yinsheng_pay.accountKey');
 		$postData = [
@@ -45,26 +46,21 @@ class Yinsheng extends AdminBase{
 		];
 		$str = "accountId=".$accountId."&subContractId=".$postData['subContractId']."&orderId=".$postData['orderId']."&purpose=".$postData['purpose']."&amount=".$postData['amount']."&phoneNo=".$postData['phoneNo']."&responseUrl=".$postData['responseUrl']."&key=".$key;
 		$postData['mac'] = strtoupper(md5($str));
-		$result = create_request($url, json_encode($postData));
-		$result['subContractId'] =  $postData['subContractId'];
+		$result = create_request($url, json_encode($postData));*/
 		if($result['result_code'] == '0000'){
 			$data = array(
 				 'accountId' => $accountId,
 				'subContractId' => $postData['subContractId'],
-				'amount' => floatval($postData['amount']),
+				'amount' => number_format($postData['amount'], 2, '.', ''),
 				'phoneNo' => intval($postData['phoneNo']),
 				'orderId' => $postData['orderId'],
-				'cardNo' =>  input('post.cardNo'),
-				'username' =>  input('post.username'),
-				'idCardNo' =>  input('post.idCardNo'),
-				'status' =>  '2',
+				'cardNo' => input('post.cardNo'),
+				'username' => input('post.name'),
+				'idCardNo' => input('post.idCardNo'),
+				'status' => '2',
 				'create_time' => time(),
 			);
 			Db::name('yingsheng_orders')->insert($data);
-		}else{
-			$postData['result_code']  = '1111';
-			$postData['result_msg'] = $result['result_msg'];
-			echo json_encode($postData);exit;
 		}
 		echo json_encode($result);exit;
 	}
@@ -114,6 +110,57 @@ class Yinsheng extends AdminBase{
 		echo json_encode($result);exit;
 	}
 
+	//子协议延期
+	public function order_more_time(){
+		$url = config('yinsheng_pay.subConstractExtension');
+		$contractId = config('yinsheng_pay.contractId');
+		$accountId = config('yinsheng_pay.accountId');
+		$key = config('yinsheng_pay.accountKey');
+		$postdata = [
+			'startDate' => date('Ymd', strtotime(input('post.starttime'))),
+			'endDate' => date('Ymd', strtotime(input('post.endtime'))),
+			'contractId' => $contractId,
+			'accountId' => $accountId,
+			'subContractId' => input('post.subContractId'),
+		];
+		$str = "accountId=".$accountId."&contractId=".$contractId."&subContractId=".$postdata['subContractId']."&startDate=".$postdata['startDate']."&endDate=".$postdata['endDate']."&key=".$key;
+		$postdata['mac'] = strtoupper(md5($str));
+		$result = create_request($url, json_encode($postdata));
+		echo json_encode($result);exit;
+	}
+
+	//订单状态查询
+	public function query_order_status(){
+		$url = config('yinsheng_pay.queryOrderStatus');
+		$accountId = config('yinsheng_pay.accountId');
+		$key = config('yinsheng_pay.accountKey');
+		$postdata = [
+			'accountId' => $accountId,
+			'orderId' => '',
+		];
+		$str = "accountId=".$accountId."&orderId=".$postdata['orderId']."&key=".$key;
+		$postdata['mac'] = strtoupper(md5($str));
+		$result = create_request($url, json_encode($postdata));
+		print_r($result);
+	}
+
+	//子协议查询
+	public function query_subContract(){
+		$url = config('yinsheng_pay.querySubContractId');
+		$accountId = config('yinsheng_pay.accountId');
+		$key = config('yinsheng_pay.accountKey');
+		$postdata = [
+			'cardNo' => input('post.cardNo'),
+			'name' => input('post.name'),
+			'idCardNo' => input('post.idCardNo'),
+			'accountId' => $accountId,
+		];
+		$str = "accountId=".$accountId."&name=".$postdata['name']."&cardNo=".$postdata['name']."&idCardNo=".$postdata['name']."&key=".$key;
+		$postdata['mac'] = strtoupper(md5($str));
+		$result = create_request($url, json_encode($postdata));
+		print_r($result);
+	}
+
 	//代扣订单列表
 	public function orders(){
 		$this->assign('breadcrumb1','代扣');
@@ -144,6 +191,15 @@ class Yinsheng extends AdminBase{
 		$list = Db::name('yingsheng_orders')->where($map)->order('create_time desc')->paginate(config('page_num'), false, ['query'=>$query]);
 		$this->assign('list', $list);
 		$this->assign('empty', '<tr><td colspan="11">没有数据~</td></tr>');
+		return $this->fetch();
+	}
+
+	//子协议延期
+	public function order_time(){
+		$this->assign('breadcrumb1','代扣');
+		$this->assign('breadcrumb2','子协议延期');
+		$this->assign('starttime', date('Y-m-d'));
+		$this->assign('endtime', date('Y-m-d', time() + config('yinsheng_pay.orderTime') * 24 * 60 * 60));
 		return $this->fetch();
 	}
 

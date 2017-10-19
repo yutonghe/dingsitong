@@ -32,7 +32,9 @@ class AdminBase extends Base{
 		$this->get_menu();
 		
         //权限判断  
-        if(session('user_auth.username')!=config('administrator')){//超级管理员不需要验证        
+        if(session('user_auth.username')!=config('administrator')){//超级管理员不需要验证
+
+
 	        
 			$auth = new \auth\Auth();
 			
@@ -75,9 +77,9 @@ class AdminBase extends Base{
 	
 	//用于单表插入操作
 	public function single_table_insert($table_name,$user_action){
-				
-			$data=input('post.');			
-			$result = $this->validate($data,$table_name);			
+
+			$data=input('post.');
+			$result = $this->validate($data,$table_name);
 			if($result!==true){
 				return ['error'=>$result];
 			}			
