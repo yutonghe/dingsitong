@@ -2,14 +2,59 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cc65961c-7afc-4a36-8845-43fe459170ba" name="默认的" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/oscshop/common/service/Yinsheng.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/runtime/log/201710/17.log" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oscshop/merchant/controller/Account.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oscshop/merchant/controller/AuthBackend.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oscshop/merchant/controller/Cart.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oscshop/merchant/controller/Checkout.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oscshop/merchant/controller/FileManager.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oscshop/merchant/controller/MemberBackend.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oscshop/merchant/controller/MenuBackend.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oscshop/merchant/controller/OrderBackend.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oscshop/merchant/controller/OrderMember.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oscshop/merchant/controller/OrderStatus.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oscshop/merchant/controller/Payment.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oscshop/merchant/controller/Transport.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oscshop/merchant/view/account/address.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oscshop/merchant/view/account/edit_address.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oscshop/merchant/view/account/password.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oscshop/merchant/view/account/profile.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oscshop/merchant/view/auth_backend/access.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oscshop/merchant/view/auth_backend/edit_group.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oscshop/merchant/view/auth_backend/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oscshop/merchant/view/cart/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oscshop/merchant/view/checkout/confirm.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oscshop/merchant/view/checkout/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oscshop/merchant/view/checkout/payment_method.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oscshop/merchant/view/checkout/shipping_address.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oscshop/merchant/view/checkout/shipping_method.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oscshop/merchant/view/file_manager/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oscshop/merchant/view/member_backend/add.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oscshop/merchant/view/member_backend/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oscshop/merchant/view/member_backend/info.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oscshop/merchant/view/menu_backend/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oscshop/merchant/view/order_backend/history.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oscshop/merchant/view/order_backend/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oscshop/merchant/view/order_backend/order.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oscshop/merchant/view/order_backend/show.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oscshop/merchant/view/order_member/history.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oscshop/merchant/view/order_member/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oscshop/merchant/view/order_member/show.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oscshop/merchant/view/order_status/edit.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oscshop/merchant/view/order_status/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oscshop/merchant/view/payment/edit.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oscshop/merchant/view/payment/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oscshop/merchant/view/transport/edit.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oscshop/merchant/view/transport/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oscshop/merchant/view/transport/transport_area.html" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dos/深圳市安泰茂贸易有限公司.txt" afterPath="$PROJECT_DIR$/dos/深圳市安泰茂贸易有限公司.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/oscshop/admin/controller/Yinsheng.php" afterPath="$PROJECT_DIR$/oscshop/admin/controller/Yinsheng.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/runtime/cache/22/884db148f0ffb0d830ba431102b0b5.php" afterPath="$PROJECT_DIR$/runtime/cache/22/884db148f0ffb0d830ba431102b0b5.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/runtime/cache/50/e42e2e0c46db6eb01ed4a3be845c44.php" afterPath="$PROJECT_DIR$/runtime/cache/50/e42e2e0c46db6eb01ed4a3be845c44.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/runtime/temp/475565c33ce9db7173c171faeffa944f.php" afterPath="$PROJECT_DIR$/runtime/temp/475565c33ce9db7173c171faeffa944f.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/oscshop/admin/service/Yinsheng.php" afterPath="$PROJECT_DIR$/oscshop/admin/service/Yinsheng.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/oscshop/config.php" afterPath="$PROJECT_DIR$/oscshop/config.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/oscshop/merchant/controller/Index.php" afterPath="$PROJECT_DIR$/oscshop/merchant/controller/Index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/oscshop/merchant/view/index/index.html" afterPath="$PROJECT_DIR$/oscshop/merchant/view/index/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/oscshop/merchant/view/public/base.html" afterPath="$PROJECT_DIR$/oscshop/merchant/view/public/base.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/runtime/log/201710/19.log" afterPath="$PROJECT_DIR$/runtime/log/201710/19.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/runtime/temp/d4a262d90e8419ddb2e6ca0fe02e87b0.php" afterPath="$PROJECT_DIR$/runtime/temp/d4a262d90e8419ddb2e6ca0fe02e87b0.php" />
     </list>
     <ignored path="dingsitong.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -31,24 +76,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="AdminBase.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/oscshop/common/controller/AdminBase.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.764706">
-              <caret line="22" column="60" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="60" />
-              <folding>
-                <marker date="1508392195984" expanded="true" signature="1466:1564" placeholder="select * fro... ${config('database.prefix')}" />
-                <marker date="1508392195984" expanded="true" signature="1711:1930" placeholder="select m.* f... ${config('database.prefix')}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Yinsheng.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/oscshop/admin/service/Yinsheng.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.07239819">
-              <caret line="15" column="19" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
+            <state vertical-scroll-proportion="0.44859812">
+              <caret line="34" column="131" selection-start-line="34" selection-start-column="125" selection-end-line="34" selection-end-column="125" />
               <folding />
             </state>
           </provider>
@@ -57,8 +89,8 @@
       <file leaf-file-name="MerchantBase.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/oscshop/common/controller/MerchantBase.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.7419353">
-              <caret line="15" column="10" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
+            <state vertical-scroll-proportion="-7.225806">
+              <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
               <folding>
                 <element signature="e#6#41#0#PHP" expanded="true" />
               </folding>
@@ -76,58 +108,44 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="config.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/oscshop/config.php">
+      <file leaf-file-name="Daikou.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/oscshop/merchant/controller/Daikou.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-18.470589">
-              <caret line="47" column="5" selection-start-line="37" selection-start-column="4" selection-end-line="47" selection-end-column="5" />
+            <state vertical-scroll-proportion="-15.354838">
+              <caret line="68" column="49" selection-start-line="68" selection-start-column="49" selection-end-line="68" selection-end-column="49" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/oscshop/merchant/view/index/index.html">
+      <file leaf-file-name="Index.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/oscshop/merchant/controller/Index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-56.47059">
-              <caret line="78" column="33" selection-start-line="78" selection-start-column="18" selection-end-line="78" selection-end-column="18" />
+            <state vertical-scroll-proportion="-10.3529415">
+              <caret line="11" column="30" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
               <folding>
-                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#input#0;n#div#0;n#div#0;n#div#6;n#div#0;n#form#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#button#0;n#div#0;n#div#0;n#div#6;n#div#0;n#form#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#form#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="e#6#48#0#PHP" expanded="true" />
+                <element signature="e#84#123#0#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/oscshop/admin/view/yinsheng/index.html">
+        <entry file="file://$PROJECT_DIR$/oscshop/merchant/view/daikou/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-37.294117">
-              <caret line="97" column="48" selection-start-line="97" selection-start-column="41" selection-end-line="97" selection-end-column="41" />
+            <state vertical-scroll-proportion="-9.058824">
+              <caret line="126" column="47" selection-start-line="126" selection-start-column="47" selection-end-line="126" selection-end-column="47" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Yinsheng.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/oscshop/admin/controller/Yinsheng.php">
+      <file leaf-file-name="base.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/oscshop/merchant/view/public/base.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-2.516129">
-              <caret line="16" column="33" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
-              <folding>
-                <element signature="e#396#432#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="User.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/oscshop/admin/service/User.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.764706">
-              <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+            <state vertical-scroll-proportion="-9.67742">
+              <caret line="78" column="29" selection-start-line="78" selection-start-column="29" selection-end-line="78" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -143,7 +161,6 @@
       <list>
         <option value="$PROJECT_DIR$/oscshop/admin/view/yinsheng/orders.html" />
         <option value="$PROJECT_DIR$/oscshop/common.php" />
-        <option value="$PROJECT_DIR$/oscshop/config.php" />
         <option value="$PROJECT_DIR$/oscshop/admin/view/yinsheng/order_time.html" />
         <option value="$PROJECT_DIR$/oscshop/admin/view/yinsheng/index.html" />
         <option value="$PROJECT_DIR$/oscshop/admin/service/User.php" />
@@ -153,12 +170,15 @@
         <option value="$PROJECT_DIR$/oscshop/common/controller/MerchantBase.php" />
         <option value="$PROJECT_DIR$/oscshop/merchant/module.php" />
         <option value="$PROJECT_DIR$/oscshop/install/config.php" />
-        <option value="$PROJECT_DIR$/oscshop/merchant/view/public/base.html" />
-        <option value="$PROJECT_DIR$/oscshop/merchant/controller/Index.php" />
         <option value="$PROJECT_DIR$/public/static/view_res/merchant/css/style.css" />
-        <option value="$PROJECT_DIR$/oscshop/merchant/view/index/index.html" />
         <option value="$PROJECT_DIR$/oscshop/common/service/Yinsheng.php" />
         <option value="$PROJECT_DIR$/oscshop/admin/controller/Yinsheng.php" />
+        <option value="$PROJECT_DIR$/oscshop/config.php" />
+        <option value="$PROJECT_DIR$/oscshop/merchant/view/public/base.html" />
+        <option value="$PROJECT_DIR$/oscshop/merchant/controller/Index.php" />
+        <option value="$PROJECT_DIR$/oscshop/merchant/view/index/index.html" />
+        <option value="$PROJECT_DIR$/oscshop/merchant/view/daikou/index.html" />
+        <option value="$PROJECT_DIR$/oscshop/merchant/controller/Daikou.php" />
         <option value="$PROJECT_DIR$/oscshop/admin/service/Yinsheng.php" />
       </list>
     </option>
@@ -255,7 +275,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="common" />
+              <option name="myItemId" value="merchant" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -273,11 +293,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="common" />
+              <option name="myItemId" value="merchant" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="service" />
+              <option name="myItemId" value="view" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -295,7 +315,59 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="common" />
+              <option name="myItemId" value="merchant" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="view" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="index" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dingsitong" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dingsitong" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="oscshop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="merchant" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="view" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="daikou" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dingsitong" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dingsitong" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="oscshop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="merchant" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -318,28 +390,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="admin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dingsitong" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dingsitong" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="oscshop" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="admin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="service" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -474,30 +524,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/oscshop/admin/validate/Menu.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/oscshop/admin/validate/Category.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/oscshop/admin/controller/Config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.0769231">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/oscshop/route.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5294118">
@@ -650,22 +676,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/oscshop/merchant/module.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.28959277">
-          <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/oscshop/merchant/config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.28959277">
-          <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/oscshop/merchant/service/User.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.43438914">
@@ -701,48 +711,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/oscshop/merchant/controller/Index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.225806">
-          <caret line="14" column="51" selection-start-line="14" selection-start-column="48" selection-end-line="14" selection-end-column="48" />
-          <folding>
-            <element signature="e#6#48#0#PHP" expanded="true" />
-            <element signature="e#84#123#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/oscshop/merchant/view/public/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.4579439">
-          <caret line="66" column="49" selection-start-line="66" selection-start-column="37" selection-end-line="66" selection-end-column="49" />
-          <folding>
-            <element signature="n#style#0;n#li#1;n#ul#0;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/static/view_res/merchant/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-20.352942">
-          <caret line="59" column="21" selection-start-line="59" selection-start-column="21" selection-end-line="59" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/oscshop/merchant/view/index/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-56.47059">
-          <caret line="78" column="33" selection-start-line="78" selection-start-column="18" selection-end-line="78" selection-end-column="18" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#0;n#div#0;n#div#0;n#div#6;n#div#0;n#form#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#button#0;n#div#0;n#div#0;n#div#6;n#div#0;n#form#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#form#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/oscshop/common/service/System.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.43438914">
@@ -763,26 +731,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/oscshop/admin/view/yinsheng/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-37.294117">
-          <caret line="97" column="48" selection-start-line="97" selection-start-column="41" selection-end-line="97" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/oscshop/helper.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.35859728">
           <caret line="28" column="16" selection-start-line="28" selection-start-column="16" selection-end-line="28" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/oscshop/config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-18.470589">
-          <caret line="47" column="5" selection-start-line="37" selection-start-column="4" selection-end-line="47" selection-end-column="5" />
           <folding />
         </state>
       </provider>
@@ -888,38 +840,50 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/oscshop/admin/controller/Yinsheng.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.516129">
-          <caret line="16" column="33" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
-          <folding>
-            <element signature="e#396#432#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/oscshop/admin/service/User.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.764706">
-          <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+        <state vertical-scroll-proportion="0.54298645">
+          <caret line="15" column="39" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/oscshop/common/controller/MerchantBase.php">
+    <entry file="file://$PROJECT_DIR$/oscshop/config.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.7419353">
-          <caret line="15" column="10" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
-          <folding>
-            <element signature="e#6#41#0#PHP" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="0.71040726">
+          <caret line="34" column="73" selection-start-line="34" selection-start-column="73" selection-end-line="34" selection-end-column="73" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oscshop/merchant/module.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.28959277">
+          <caret line="8" column="32" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oscshop/merchant/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.28959277">
+          <caret line="8" column="27" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oscshop/admin/view/yinsheng/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="2.3031673">
+          <caret line="153" column="11" selection-start-line="94" selection-start-column="1" selection-end-line="153" selection-end-column="8" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/oscshop/common/controller/AdminBase.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.764706">
-          <caret line="22" column="60" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="60" />
+        <state vertical-scroll-proportion="0.8325792">
+          <caret line="34" column="79" selection-start-line="34" selection-start-column="79" selection-end-line="34" selection-end-column="79" />
           <folding>
             <marker date="1508392195984" expanded="true" signature="1466:1564" placeholder="select * fro... ${config('database.prefix')}" />
             <marker date="1508392195984" expanded="true" signature="1711:1930" placeholder="select m.* f... ${config('database.prefix')}" />
@@ -927,10 +891,89 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/oscshop/merchant/view/index/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5656109">
+          <caret line="53" column="21" selection-start-line="53" selection-start-column="21" selection-end-line="53" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/static/view_res/merchant/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-20.352942">
+          <caret line="59" column="21" selection-start-line="59" selection-start-column="21" selection-end-line="59" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oscshop/admin/view/yinsheng/orders.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.47058824">
+          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="80" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oscshop/merchant/controller/Index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.3529415">
+          <caret line="11" column="30" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
+          <folding>
+            <element signature="e#6#48#0#PHP" expanded="true" />
+            <element signature="e#84#123#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oscshop/admin/controller/Yinsheng.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.61538464">
+          <caret line="49" column="57" selection-start-line="49" selection-start-column="12" selection-end-line="49" selection-end-column="56" />
+          <folding>
+            <element signature="e#396#432#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oscshop/merchant/view/public/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.67742">
+          <caret line="78" column="29" selection-start-line="78" selection-start-column="29" selection-end-line="78" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oscshop/common/controller/MerchantBase.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.225806">
+          <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+          <folding>
+            <element signature="e#6#41#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oscshop/merchant/view/daikou/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.058824">
+          <caret line="126" column="47" selection-start-line="126" selection-start-column="47" selection-end-line="126" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oscshop/merchant/controller/Daikou.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-15.354838">
+          <caret line="68" column="49" selection-start-line="68" selection-start-column="49" selection-end-line="68" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/oscshop/admin/service/Yinsheng.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.07239819">
-          <caret line="15" column="19" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
+        <state vertical-scroll-proportion="0.44859812">
+          <caret line="34" column="131" selection-start-line="34" selection-start-column="125" selection-end-line="34" selection-end-column="125" />
           <folding />
         </state>
       </provider>

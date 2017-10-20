@@ -33,17 +33,4 @@ return [
 	'dispatch_error_tmpl' => APP_PATH.'common/view/public/error.tpl',
 	//默认成功跳转对应的模板文件
 	'dispatch_success_tmpl' => APP_PATH.'common/view/public/success.tpl',
-
-	//银生宝配置
-	'yinsheng_pay' => [
-		'contractId' => '1120171016165338001', //协议号
-		'accountId' => '1120171016165338001', // 商户号
-		'accountKey' => '123456abc', //商户秘钥
-		'signSimpleSubContract' => 'http://180.166.114.155:58082/delegate-collect-front/subcontract/signSimpleSubContractJson', //子协议录入接口
-		'collect' => 'http://180.166.114.155:58082/delegate-collect-front/delegateCollect/collectJson', //代扣接口
-		'queryOrderStatus' => 'http://180.166.114.155:58082/delegate-collect-front/delegateCollect/queryJson', //订单状态查询
-		'querySubContractId' => 'http://180.166.114.155:58082/delegate-collect-front/subcontract/querySubContractIdJson', //子协议号查询
-		'subConstractExtension' => 'http://180.166.114.155:58082/delegate-collect-front/subcontract/subConstractExtensionJson', //子协议延期
-		'orderTime' => 1,         //默认子协议有效期(天)
-	]
 ];

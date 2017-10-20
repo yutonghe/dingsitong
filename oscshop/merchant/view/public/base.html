@@ -9,8 +9,6 @@
 
 		<link rel="stylesheet" href="__PUBLIC__/js/bt/bootstrap.min.css" />
 		<link rel="stylesheet" href="__PUBLIC__/view_res/merchant/css/style.css"/>
-
-		
 		{block name="css"}
 			
 		{/block}
@@ -38,10 +36,17 @@
 		<div class="left_menu">
 			<ul id="nav_dot">
 				<li>
+					<h4 class="M4"><span></span>账户管理</h4>
+					<div class="list-item none">
+						<a href="{:url('Index/index')}">账户查询</a>
+						<a href="{:url('Index/list')}">出账明细</a>
+					</div>
+				</li>
+				<li>
 					<h4 class="M2"><span></span>代扣</h4>
 					<div class="list-item none">
-						<a href=''>代扣</a>
-						<a href=''>子协议延期</a>
+						<a href="{:url('Daikou/index')}">代扣</a>
+						<a href="{:url('Daikou/moretime')}">子协议延期</a>
 					</div>
 				</li>
 				<li>
@@ -50,13 +55,7 @@
 						<a href=''>单笔代付</a>
 					</div>
 				</li>
-				<li>
-					<h4 class="M4"><span></span>账户管理</h4>
-					<div class="list-item none">
-						<a href=''>账户查询</a>
-						<a href=''>出账明细</a>
-					</div>
-				</li>
+
 			</ul>
 		</div>
 		<div class="m-right">
@@ -75,7 +74,7 @@
 		</div>
 	</div>
 	<div class="bottom"></div>
-	<div id="footer"><p>Copyright©  2015 版权所有 京ICP备05019125号-10  来源:<a href="http://www.qdxw.net/" target="_blank">青岛星网</a></p></div>
+	<div id="footer"><p>Copyright©  2015 版权所有 京ICP备05019125号-10</p></div>
 	<script>navList(12);</script>
 	{block name="javascript"}
 								

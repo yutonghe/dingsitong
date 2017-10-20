@@ -10,9 +10,8 @@ class Index extends MerchantBase{
 
 	//首页
 	public function index(){
-		$this->assign('breadcrumb1', '代扣');
-		$this->assign('breadcrumb2', '代扣');
-		$this->assign('order', get_order_num());
+		$this->assign('breadcrumb1', '账户管理');
+		$this->assign('breadcrumb2', '账户查询');
 		return $this->fetch();
 	}
 

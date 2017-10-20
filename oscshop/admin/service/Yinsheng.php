@@ -16,7 +16,7 @@
 namespace osc\admin\service;
 class Yinsheng{
 
-	private $conf = [
+	public $conf1 = [
 		'contractId' => '1120171016165338001', //协议号
 		'accountId' => '1120171016165338001', // 商户号
 		'accountKey' => '123456abc', //商户秘钥
@@ -25,6 +25,18 @@ class Yinsheng{
 		'queryOrderStatus' => 'http://180.166.114.155:58082/delegate-collect-front/delegateCollect/queryJson', //订单状态查询
 		'querySubContractId' => 'http://180.166.114.155:58082/delegate-collect-front/subcontract/querySubContractIdJson', //子协议号查询
 		'subConstractExtension' => 'http://180.166.114.155:58082/delegate-collect-front/subcontract/subConstractExtensionJson', //子协议延期
+		'orderTime' => 1,         //默认子协议有效期(天)
+	];
+
+	public $conf = [
+		'contractId' => '1120171020095241001', //协议号
+		'accountId' => '1120171020095241001', // 商户号
+		'accountKey' => '123456abc', //商户秘钥
+		'signSimpleSubContract' => 'http://180.166.114.155:8081/unspay-external/subcontract/signSimpleSubContract', //子协议录入接口
+		'collect' => 'http://180.166.114.155:8081/unspay-external/delegateCollect/collect', //代扣接口
+		'queryOrderStatus' => 'http://180.166.114.155:8081/unspay-external/delegateCollect/queryOrderStatus', //订单状态查询
+		'querySubContractId' => 'http://180.166.114.155:8081/unspay-external/subcontract/querySubContractId', //子协议号查询
+		'subConstractExtension' => 'http://180.166.114.155:8081/unspay-external/subcontract/subConstractExtension', //子协议延期
 		'orderTime' => 1,         //默认子协议有效期(天)
 	];
 
@@ -48,7 +60,7 @@ class Yinsheng{
 		$str = "accountId=".$accountId."&contractId=".$contractId."&name=".$postData['name']."&phoneNo=".$postData['phoneNo']."&cardNo=".$postData['cardNo']."&idCardNo=".$postData['idCardNo']."&startDate=".$postData['startDate']."&endDate=".$postData['endDate']."&key=".$key;
 		$postData['mac'] = strtoupper(md5($str));
 		$result = create_request($url, json_encode($postData));
-		return  $result;
+		return $result;
 	}
 
 	//代扣调用
@@ -69,7 +81,7 @@ class Yinsheng{
 		$postData['mac'] = strtoupper(md5($str));
 		$result = create_request($url, json_encode($postData));
 		$result['subContractId'] =  $postData['subContractId'];
-		return $result;
+		return array('postdata' => $postData, 'result' => $result);
 	}
 
 	//子协议延期

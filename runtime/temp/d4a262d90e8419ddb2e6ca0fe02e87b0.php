@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:40:"./oscshop/merchant\view\index\index.html";i:1508405467;s:40:"./oscshop/merchant\view\public\base.html";i:1508404862;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:40:"./oscshop/merchant\view\index\index.html";i:1508465139;s:40:"./oscshop/merchant\view\public\base.html";i:1508463716;}*/ ?>
 <!DOCTYPE html>
 <html lang="en">
 	<head>
@@ -10,8 +10,6 @@
 
 		<link rel="stylesheet" href="__PUBLIC__/js/bt/bootstrap.min.css" />
 		<link rel="stylesheet" href="__PUBLIC__/view_res/merchant/css/style.css"/>
-
-		
 		
 			
 		
@@ -39,10 +37,17 @@
 		<div class="left_menu">
 			<ul id="nav_dot">
 				<li>
+					<h4 class="M4"><span></span>账户管理</h4>
+					<div class="list-item none">
+						<a href="<?php echo url('Index/index'); ?>">账户查询</a>
+						<a href="<?php echo url('Index/list'); ?>">出账明细</a>
+					</div>
+				</li>
+				<li>
 					<h4 class="M2"><span></span>代扣</h4>
 					<div class="list-item none">
-						<a href=''>代扣</a>
-						<a href=''>子协议延期</a>
+						<a href="<?php echo url('Daikou/index'); ?>">代扣</a>
+						<a href="<?php echo url('Daikou/moretime'); ?>">子协议延期</a>
 					</div>
 				</li>
 				<li>
@@ -51,13 +56,7 @@
 						<a href=''>单笔代付</a>
 					</div>
 				</li>
-				<li>
-					<h4 class="M4"><span></span>账户管理</h4>
-					<div class="list-item none">
-						<a href=''>账户查询</a>
-						<a href=''>出账明细</a>
-					</div>
-				</li>
+
 			</ul>
 		</div>
 		<div class="m-right">
@@ -72,92 +71,70 @@
 			</div>
 			<div class="main">
 				
-<div class="row" style="margin-top:30px;">
-    <div class="col-xs-3"></div>
-    <form id="form" class="col-xs-6">
-        <div class="form-horizontal">
-            <div class="form-group">
-                <label class="col-sm-2 control-label no-padding-left">银行卡号 </label>
-                <div class="col-sm-10">
-                    <div class="clearfix">
-                        <input type="text" name="cardNo" id="cardNo" value="" maxlength="25" class="form-control"/>
-                    </div>
-                </div>
-            </div>
-            <div class="form-group">
-                <label class="col-sm-2 control-label no-padding-left">用户姓名 </label>
-                <div class="col-sm-10">
-                    <div class="clearfix">
-                        <input type="text" name="name" id="name" value="" maxlength="32" class="form-control"/>
-                    </div>
-                </div>
-            </div>
-            <div class="form-group">
-                <label class="col-sm-2 control-label no-padding-left">身份证号 </label>
-                <div class="col-sm-10">
-                    <div class="clearfix">
-                        <input type="text" name="idCardNo" id="idCardNo" value="" maxlength="18" class="form-control"/>
-                    </div>
-                </div>
-            </div>
-            <div class="form-group">
-                <label class="col-sm-2 control-label no-padding-left">手机号 </label>
-                <div class="col-sm-10">
-                    <div class="clearfix">
-                        <input type="text" name="phoneNo" id="phoneNo" value="" class="form-control" maxlength="11"/>
-                    </div>
-                </div>
-            </div>
-            <div class="form-group">
-                <label class="col-sm-2 control-label no-padding-left">金额(元) </label>
-                <div class="col-sm-10">
-                    <div class="clearfix">
-                        <input type="text" name="amount" id="amount" value="" class="form-control" maxlength="11"/>
-                    </div>
-                </div>
-            </div>
-            <div class="form-group">
-                <label class="col-sm-2 control-label no-padding-left">扣款目的 </label>
-                <div class="col-sm-10">
-                    <div class="clearfix">
-                        <input type="text" name="purpose" id="purpose" class="form-control" value="" maxlength="32"/>
-                    </div>
-                </div>
-            </div>
-            <div class="form-group">
-                <label class="col-sm-2 control-label no-padding-left">子协议 </label>
-                <div class="col-sm-10">
-                    <div class="clearfix">
-                        <input type="text" name="subContractId" id="subContractId" value="" class="form-control col-sm-8" maxlength="11" style="width:66.66666666666%"/>
-                        <button id="scOrder" class="btn btn-sm btn-primary col-sm-4" style="height:34px">获取子协议</button>
-                    </div>
-                </div>
-            </div>
-            <div class="form-group">
-                <label class="col-sm-2 control-label no-padding-left">订单号 </label>
-                <div class="col-sm-10">
-                    <div class="clearfix">
-                        <input type="text" name="orderId" id="orderId" class="form-control" readonly value="<?php echo $order; ?>"/>
-                    </div>
-                </div>
-            </div>
+<table class="table table-striped table-bordered table-hover search-form">
+    <thead>
+    <th width="25%"><input name="starttime" type="text" placeholder="开始时间" value="" />-<input name="endtime" type="text" placeholder="结束时间" value="" /></th>
+    <th width="25%"><input name="orderNo" type="text"  value="" placeholder="代扣订单号"/></th>
+    <th width="25%">
+        <select name="status">
+            <option value="0">全部状态</option>
+            <option value="1">成功</option>
+            <option value="2">处理中</option>
+            <option value="3">失败</option>
+        </select>
+    </th>
+    <th width="25%"><a class="btn btn-primary" href="javascript:;" id="search" url="<?php echo url('Yinsheng/orders'); ?>" style="width:120px">查询</a></th>
+    </thead>
+</table>
 
+<div class="row">
+    <div class="col-xs-12">
+        <div>
+            <table id="table" class="table table-striped table-bordered table-hover">
+                <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>商户号</th>
+                    <th>子协议号</th>
+                    <th>订单号</th>
+                    <th>银行卡号</th>
+                    <th>手机号</th>
+                    <th>用户姓名</th>
+                    <th>身份证</th>
+                    <th>金额(元)</th>
+                    <th>状态</th>
+                    <th>交易时间</th>
+                </tr>
+                </thead>
+                <tbody>
+
+                <tr>
+                    <td>sdf</td>
+                    <td>sdf</td>
+                    <td>sdf</td>
+                    <td>sdf</td>
+                    <td>sdf</td>
+                    <td>sdf</td>
+                    <td>sdf</td>
+                    <td>sdf</td>
+                    <th>sdf</th>
+                    <td>
+                      ewr
+                    </td>
+                    <td>sdfsd</td>
+                </tr>
+
+                </tbody>
+            </table>
         </div>
-        <div class="form-group" style="margin-top:20px;">
-            <label class="col-sm-2 control-label no-padding-left"> </label>
-            <div class="col-sm-10" style="text-align: center">
-                <button type="submit" id="send" class="btn btn-sm btn-primary" style="width:120px;margin-right:30px">提交</button>
-                <button type="reset" id="reset" class="btn btn-sm btn-primary" style="width:120px">重置</button>
-            </div>
-        </div>
-    </form>
+    </div>
 </div>
 
 			</div>
 		</div>
 	</div>
 	<div class="bottom"></div>
-	<div id="footer"><p>Copyright©  2015 版权所有 京ICP备05019125号-10  来源:<a href="http://www.qdxw.net/" target="_blank">青岛星网</a></p></div>
+	<div id="footer"><p>Copyright©  2015 版权所有 京ICP备05019125号-10</p></div>
 	<script>navList(12);</script>
 	
 								

@@ -1291,3 +1291,45 @@
 [ info ] [ DB ] INIT mysql
 [ info ] [ RUN ] osc\admin\controller\Yinsheng->get_scOrder[ D:\wamp64\www\dingsitong\oscshop\admin\controller\Yinsheng.php ]
 [ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-19T18:19:51+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/yinsheng/index
+[ info ] oscshop2.com/admin/yinsheng/index [运行时间：0.068004s][吞吐率：14.71req/s] [内存消耗：2,670.67kb] [文件加载：48]
+[ info ] [ LANG ] D:\wamp64\www\dingsitong\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'yinsheng',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'oscshop2.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://oscshop2.com/admin/module/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=4oe3i6uf5njp3pcp6k5bfan3v3; Hm_lvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1508203010; Hm_lpvt_32e3cb4cf7e5c6772c4dc1f5d496b6af=1508396252',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] osc\admin\controller\Yinsheng->index[ D:\wamp64\www\dingsitong\oscshop\admin\controller\Yinsheng.php ]
+[ info ] [ VIEW ] ./oscshop/admin\view\yinsheng\index.html [ array (
+  0 => 'admin_menu',
+  1 => 'breadcrumb1',
+  2 => 'breadcrumb2',
+  3 => 'order',
+) ]
+[ info ] [ LOG ] INIT File

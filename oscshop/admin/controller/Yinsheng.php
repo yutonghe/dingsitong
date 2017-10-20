@@ -31,29 +31,16 @@ class Yinsheng extends AdminBase{
 
 	//支付调用接口
 	public function yinsheng_pay(){
-		$result = osc_service('admin','yinsheng')->yinsheng_pay();
-		/*$url = config('yinsheng_pay.collect');
-		$accountId = config('yinsheng_pay.accountId');
-		$key = config('yinsheng_pay.accountKey');
-		$postData = [
-			'purpose' => input('post.purpose'),
-			'amount' => input('post.amount'),
-			'phoneNo' => input('post.phoneNo'),
-			'subContractId' => input('post.subContractId'),
-			'accountId' => $accountId,
-			'orderId' => input('post.orderId'),
-			'responseUrl' => "http://". $_SERVER['SERVER_ADDR'] ."/admin/yinsheng/resPay",
-		];
-		$str = "accountId=".$accountId."&subContractId=".$postData['subContractId']."&orderId=".$postData['orderId']."&purpose=".$postData['purpose']."&amount=".$postData['amount']."&phoneNo=".$postData['phoneNo']."&responseUrl=".$postData['responseUrl']."&key=".$key;
-		$postData['mac'] = strtoupper(md5($str));
-		$result = create_request($url, json_encode($postData));*/
+		$res = osc_service('admin','yinsheng')->yinsheng_pay();
+		$result = $res['result'];
+		$postdata = $res['postdata'];
 		if($result['result_code'] == '0000'){
 			$data = array(
-				 'accountId' => $accountId,
-				'subContractId' => $postData['subContractId'],
-				'amount' => number_format($postData['amount'], 2, '.', ''),
-				'phoneNo' => intval($postData['phoneNo']),
-				'orderId' => $postData['orderId'],
+				 'accountId' => $postdata['accountId'],
+				'subContractId' => $postdata['subContractId'],
+				'amount' => number_format($postdata['amount'], 2, '.', ''),
+				'phoneNo' => intval($postdata['phoneNo']),
+				'orderId' => $postdata['orderId'],
 				'cardNo' => input('post.cardNo'),
 				'username' => input('post.name'),
 				'idCardNo' => input('post.idCardNo'),
@@ -90,24 +77,6 @@ class Yinsheng extends AdminBase{
 	//获取子协议
 	public function get_scOrder(){
 		$result = osc_service('admin','yinsheng')->get_sc_order();
-		/*$url = config('yinsheng_pay.signSimpleSubContract');
-		$contractId = config('yinsheng_pay.contractId');
-		$accountId = config('yinsheng_pay.accountId');
-		$key = config('yinsheng_pay.accountKey');
-		$postData = [
-			'cardNo' => input('post.cardNo'),
-			'name' => input('post.name'),
-			'idCardNo' => input('post.idCardNo'),
-			'cardNo' => input('post.cardNo'),
-			'phoneNo' => input('post.phoneNo'),
-			'startDate' => date('Ymd'),
-			'endDate' => date('Ymd', time()+3600),
-			'contractId' => $contractId,
-			'accountId' => $accountId,
-		];
-		$str = "accountId=".$accountId."&contractId=".$contractId."&name=".$postData['name']."&phoneNo=".$postData['phoneNo']."&cardNo=".$postData['cardNo']."&idCardNo=".$postData['idCardNo']."&startDate=".$postData['startDate']."&endDate=".$postData['endDate']."&key=".$key;
-		$postData['mac'] = strtoupper(md5($str));
-		$result = create_request($url, json_encode($postData));*/
 		echo json_encode($result);exit;
 	}
 
