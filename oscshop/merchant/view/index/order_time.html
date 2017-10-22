@@ -1,0 +1,90 @@
+{extend name="public:base" /}
+{block name="content"}
+<link rel="stylesheet" href="__PUBLIC__/js/bt/bootstrap-datetimepicker.min.css" />
+<link rel="stylesheet" href="__ADMIN__/css/index.css" />
+<div style="mart">
+	<div class="col-xs-3"></div>
+	<form id="form" class="col-xs-6">
+		<div class="form-horizontal">
+			<div class="form-group">
+				<label class="col-sm-2 control-label no-padding-left">子协议号 </label>
+				<div class="col-sm-10">
+					<div class="clearfix">
+						<input type="text" name="subContractId" id="subContractId" value="" class="form-control"/>
+					</div>
+				</div>
+			</div>
+			<div class="form-group">
+				<label class="col-sm-2 control-label no-padding-left">开始时间 </label>
+				<div class="col-sm-10">
+					<div class="clearfix">
+						<input type="text" name="starttime" id="starttime" value="{$starttime}" class="form-control" readonly/>
+					</div>
+				</div>
+			</div>
+			<div class="form-group">
+				<label class="col-sm-2 control-label no-padding-left">结束时间 </label>
+				<div class="col-sm-10">
+					<div class="clearfix">
+						<input type="text" name="endtime" id="endtime" value="{$endtime}" class="form-control" readonly/>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="form-group">
+			<label class="col-sm-4 control-label no-padding-left"> </label>
+			<div class="col-sm-8">
+				<button type="submit" id="send" class="btn btn-sm btn-primary" style="width:120px;margin-right:30px">提交</button>
+				<button type="reset" id="reset" class="btn btn-sm btn-primary" style="width:120px">重置</button>
+			</div>
+		</div>
+	</form>
+</div>
+{/block}
+
+{block name="javascript"}
+<script src="__PUBLIC__/js/bt/bootstrap-datetimepicker.min.js"></script>
+<script src="__PUBLIC__/js/bt/bootstrap-datetimepicker.zh-CN.js"></script>
+<script>
+	navActive("{:url('Index/order_time')}");
+	$('#starttime').datetimepicker({
+		format: 'yyyy-mm-dd',
+		minView: "month",
+		startDate: "{$starttime}",
+		language:  'zh-CN',
+		autoclose: 1,
+	});
+	$('#endtime').datetimepicker({
+		format: 'yyyy-mm-dd',
+		minView: "month",
+		startDate: "{$endtime}",
+		language:  'zh-CN',
+		autoclose: 1,
+	});
+	//提交
+	$('#form').on('submit', function(){
+		var postdata = {
+			'subContractId': $('#subContractId').val(),
+			'starttime': $('#starttime').val(),
+			'endtime': $('#endtime').val(),
+		};
+		$.ajax({
+				url: "{:url('Index/order_more_time')}",
+			type: 'post',
+			dataType: 'json',
+			data: postdata,
+			success: function(res){
+				if(res.result_code == '0000') {
+					$('#reset').click();
+					res.result_msg = '操作成功';
+				}
+				alert(res.result_msg);
+			},
+			error: function(){
+				alert('服务器出错');
+			}
+		});
+		return false;
+	})
+</script>
+{/block}

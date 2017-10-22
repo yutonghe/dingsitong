@@ -36,11 +36,10 @@ class User{
 		}elseif('cookie'==config('merchant_login_type')){
 			cookie('merchant_user_auth', null);
 		}
-		session('total',null);
 	}	
 	
 	function user_info($uid=UID){		
-		return Db::name('merchant')->where('uid',$uid)->find();
+		return Db::name('merchant')->where('id',$uid)->find();
 	}
 
 }

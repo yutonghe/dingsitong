@@ -3,23 +3,70 @@
 <head>
 	<meta charset="utf-8" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-	<meta name="viewport" content="width=device-width; initial-scale=1.0" />	
-	<link rel="stylesheet" href="__RES__/common/base.css" />
-	<link rel="stylesheet" href="__RES__/member/css/reg.css" />
+	<meta name="viewport" content="width=device-width; initial-scale=1.0" />
+	<link rel="stylesheet" href="__PUBLIC__/js/bt/bootstrap.min.css" />
+	<style>
+		body{
+			background-color: #f5f5f5;
+		}
+		#form{
+			width:400px;
+			padding:30px 20px;
+			margin:auto;
+			border:1px solid #cccccc;
+			background-color: #ffffff;
+			margin-top:150px;
+			overflow: hidden;
+		}
+		#form label{
+			text-align:justify
+		}
+		#form .col-sm-9{
+			padding-left:0;
+		}
+	</style>
 </head>
-<body>		
-	<ul class="form">
-		<li><span>用户名：</span><input class="text" name="username" type="text" /></li>	
-		<li><span>密 码：</span><input class="text" name="password" type="password" /></li>	
-		{if condition="1 eq config('use_captcha')"}	
-		<li class="clearfix"><span>验证码：</span><input class="text" name="captcha" type="text" /></li>
-		<li class="clearfix"><span></span><img class="verifyimg reloadverify" src="{:url('login/verify')}" alt="captcha" /></li>
-		{/if}
-		<li><span></span><input type="submit" id="send" value="登录" /></li>	
-	</ul>	
+<body>
+<form id="form" onsubmit="return false">
+	<div class="form-horizontal">
+		<div class="form-group">
+			<label class="col-sm-3 control-label no-padding-left">用户名 </label>
+			<div class="col-sm-9">
+				<div class="clearfix">
+					<input type="text" name="username" id="username" value="" class="form-control"/>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="form-horizontal">
+		<div class="form-group">
+			<label class="col-sm-3 control-label no-padding-left">密码 </label>
+			<div class="col-sm-9">
+				<div class="clearfix">
+					<input type="password" name="password" id="password" value="" class="form-control"/>
+				</div>
+			</div>
+		</div>
+	</div>
+	{if condition="1 eq config('use_captcha')"}
+	<div class="form-horizontal">
+		<div class="form-group">
+			<label class="col-sm-3 control-label no-padding-left">验证码 </label>
+			<div class="col-sm-9">
+				<div class="clearfix">
+					<input type="text" name="captcha" id="captcha" value="" class="form-control col-sm-8"/>
+					<img class="verifyimg reloadverify col-sm-4" src="{:url('login/verify')}" alt="captcha" />
+				</div>
+			</div>
+		</div>
+	</div>
+	{/if}
+	<div class="form-group">
+			<button type="submit" id="send" class="btn btn-sm btn-primary col-sm-12" style="height:32px;margin-top: 10px;">登录</button>
+	</div>
+</form>
 </body>
 <script src="__PUBLIC__/js/jquery/jquery-2.0.3.min.js"></script>
-<script src="__PUBLIC__/js/jquery/jquery-migrate-1.2.1.min.js"></script>
 <script>
 	
 	<?php if(1==config('use_captcha')){ ?>
@@ -33,20 +80,19 @@
 	        }
 	    });	
 	<?php } ?>
-	
-	$('#send').click(function(){
-		
-		var username=$("input[name='username']").val();
-		var pwd=$("input[name='password']").val();
-		
+
+	$('#form').on('submit', function(){
+		var username = $("input[name='username']").val();
+		var pwd = $("input[name='password']").val();
+
 		<?php if(1==config('use_captcha')){ ?>
-			var captcha=$("input[name='captcha']").val();		
+			var captcha=$("input[name='captcha']").val();
 			if(captcha==''){
 				alert('请输入验证码');
 				return false;
-			}			
+			}
 		<?php } ?>
-		
+
 		if(username==''){
 			alert('请输入账号');
 			return false;
@@ -54,32 +100,25 @@
 			alert('请输入密码');
 			return false;
 		}
-		
-		$.post(
-			"/login",
-			$('input[type=\'text\'],input[type=\'password\']'),
-			function(d){
-				if(d.error){
-					alert(d.error);
-				}else if(d.success){
-					
+		$.ajax({
+			url: "{:url('merchant/login/login')}",
+			type: 'post',
+			dataType: 'json',
+			data: {username:username, password:pwd },
+			success: function(res){
+				if(res.error){
+					alert(res.error);
+				}else if(res.success){
 					alert('登录成功');
-					
-					var user=$("#top",window.parent.document).find('ul.left');						
-					user.html('');					
-					user.append('<li><a href="{:url(\'member/order_member/index\')}">会员中心</a></li><li><a href="{:url(\'/logout\')}">退出</a></li>');
-					
-					var cart=$("#top",window.parent.document).find('#cart a');						
-					cart.html('');					
-					cart.append(d.total);
-					
-							
-					parent.window.art.dialog.list['login'].close();		
+					location.href="{:url('merchant/index/index')}";
 				}
-			}	
-		);
-		
-	});
 
+			},
+			error: function(){
+				alert('服务器出错');
+			}
+		});
+		return false;
+	})
 </script>
 </html>

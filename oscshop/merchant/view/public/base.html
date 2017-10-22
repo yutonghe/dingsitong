@@ -25,10 +25,9 @@
 		<div class="navigation">
 			<ul>
 				<li>欢迎您！</li>
-				<li><a href="">张山</a></li>
-				<li><a href="">修改密码</a></li>
-				<li><a href="">设置</a></li>
-				<li><a href="">退出</a></li>
+				<li><a href=""><?php echo session('merchant_user_auth.username'); ?></a></li>
+				<li><a href="{:url('merchant/login/ef')}">修改密码</a></li>
+				<li><a href="{:url('merchant/login/logout')}">退出</a></li>
 			</ul>
 		</div>
 	</div>
@@ -36,26 +35,13 @@
 		<div class="left_menu">
 			<ul id="nav_dot">
 				<li>
-					<h4 class="M4"><span></span>账户管理</h4>
-					<div class="list-item none">
-						<a href="{:url('Index/index')}">账户查询</a>
-						<a href="{:url('Index/list')}">出账明细</a>
-					</div>
-				</li>
-				<li>
 					<h4 class="M2"><span></span>代扣</h4>
 					<div class="list-item none">
-						<a href="{:url('Daikou/index')}">代扣</a>
-						<a href="{:url('Daikou/moretime')}">子协议延期</a>
+						<a href="{:url('Index/index')}">代扣</a>
+						<a href="{:url('Index/order_time')}">子协议延期</a>
+						<a href="{:url('Index/orders')}">出单明细</a>
 					</div>
 				</li>
-				<li>
-					<h4 class="M3"><span></span>代付 </h4>
-					<div class="list-item none">
-						<a href=''>单笔代付</a>
-					</div>
-				</li>
-
 			</ul>
 		</div>
 		<div class="m-right">
@@ -74,7 +60,7 @@
 		</div>
 	</div>
 	<div class="bottom"></div>
-	<div id="footer"><p>Copyright©  2015 版权所有 京ICP备05019125号-10</p></div>
+	<div id="footer"><p>Copyright©  2015 版权所有</p></div>
 	<script>navList(12);</script>
 	{block name="javascript"}
 								

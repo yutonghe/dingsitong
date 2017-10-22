@@ -45,6 +45,7 @@ class Yinsheng extends AdminBase{
 				'username' => input('post.name'),
 				'idCardNo' => input('post.idCardNo'),
 				'status' => '2',
+				'status_desc' => '处理中',
 				'create_time' => time(),
 			);
 			Db::name('yingsheng_orders')->insert($data);
@@ -101,16 +102,15 @@ class Yinsheng extends AdminBase{
 
 	//订单状态查询
 	public function query_order_status(){
-		$url = config('yinsheng_pay.queryOrderStatus');
-		$accountId = config('yinsheng_pay.accountId');
-		$key = config('yinsheng_pay.accountKey');
-		$postdata = [
-			'accountId' => $accountId,
-			'orderId' => '',
-		];
-		$str = "accountId=".$accountId."&orderId=".$postdata['orderId']."&key=".$key;
-		$postdata['mac'] = strtoupper(md5($str));
-		$result = create_request($url, json_encode($postdata));
+		$result = osc_service('admin','yinsheng')->query_order_status();
+		$result = json_decode($result, true);
+		if($result['result_code'] == '0000' || $result['status'] == '00' || $result['20']){
+			$data = [
+				'status' => ($result['status'] == '00') ? 1 : 3,
+				'status_desc' => $result['desc'],
+			];
+			Db::name('yingsheng_orders')->where(['orderId'=>input('post.orderId')])->update($data);
+		}
 		print_r($result);
 	}
 
@@ -160,7 +160,7 @@ class Yinsheng extends AdminBase{
 		}
 		$list = Db::name('yingsheng_orders')->where($map)->order('create_time desc')->paginate(config('page_num'), false, ['query'=>$query]);
 		$this->assign('list', $list);
-		$this->assign('empty', '<tr><td colspan="11">没有数据~</td></tr>');
+		$this->assign('empty', '<tr><td colspan="12">没有数据~</td></tr>');
 		return $this->fetch();
 	}
 

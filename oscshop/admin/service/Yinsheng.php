@@ -16,10 +16,20 @@
 namespace osc\admin\service;
 class Yinsheng{
 
-	public $conf1 = [
-		'contractId' => '1120171016165338001', //协议号
-		'accountId' => '1120171016165338001', // 商户号
-		'accountKey' => '123456abc', //商户秘钥
+	private $acc = [
+		[
+			'contractId' => '1120171016165338001', //协议号
+			'accountId' => '1120171016165338001', // 商户号
+			'accountKey' => '123456abc', //商户秘钥
+		],
+		[
+			'contractId' => '1120171020095241001', //协议号
+			'accountId' => '1120171020095241001', // 商户号
+			'accountKey' => '123456abc', //商户秘钥
+		],
+	];
+
+	public $conf = [
 		'signSimpleSubContract' => 'http://180.166.114.155:58082/delegate-collect-front/subcontract/signSimpleSubContractJson', //子协议录入接口
 		'collect' => 'http://180.166.114.155:58082/delegate-collect-front/delegateCollect/collectJson', //代扣接口
 		'queryOrderStatus' => 'http://180.166.114.155:58082/delegate-collect-front/delegateCollect/queryJson', //订单状态查询
@@ -28,17 +38,11 @@ class Yinsheng{
 		'orderTime' => 1,         //默认子协议有效期(天)
 	];
 
-	public $conf = [
-		'contractId' => '1120171020095241001', //协议号
-		'accountId' => '1120171020095241001', // 商户号
-		'accountKey' => '123456abc', //商户秘钥
-		'signSimpleSubContract' => 'http://180.166.114.155:8081/unspay-external/subcontract/signSimpleSubContract', //子协议录入接口
-		'collect' => 'http://180.166.114.155:8081/unspay-external/delegateCollect/collect', //代扣接口
-		'queryOrderStatus' => 'http://180.166.114.155:8081/unspay-external/delegateCollect/queryOrderStatus', //订单状态查询
-		'querySubContractId' => 'http://180.166.114.155:8081/unspay-external/subcontract/querySubContractId', //子协议号查询
-		'subConstractExtension' => 'http://180.166.114.155:8081/unspay-external/subcontract/subConstractExtension', //子协议延期
-		'orderTime' => 1,         //默认子协议有效期(天)
-	];
+	public function __construct(){
+		$this->conf['contractId'] =  $this->acc[1]['contractId'];
+		$this->conf['accountId'] =  $this->acc[1]['accountId'];
+		$this->conf['accountKey'] =  $this->acc[1]['accountKey'];
+	}
 
 	//签订子协议
 	function get_sc_order(){
@@ -110,7 +114,7 @@ class Yinsheng{
 		$key = $this->conf['accountKey'];
 		$postdata = [
 			'accountId' => $accountId,
-			'orderId' => '',
+			'orderId' => input('post.orderId'),
 		];
 		$str = "accountId=".$accountId."&orderId=".$postdata['orderId']."&key=".$key;
 		$postdata['mac'] = strtoupper(md5($str));

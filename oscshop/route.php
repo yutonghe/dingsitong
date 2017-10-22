@@ -22,7 +22,9 @@ return [
 	'logout$'   	=> 'member/login/logout',	
 	'getarea$' 		=> 'member/login/getarea',
 
-	
+	'merchant/login$'   		=> 'merchant/login/login',
+
+
 	'add$'   		=> 'member/cart/add',
 	'cart$'   		=> 'member/cart/index',
 	'update$'   	=> 'member/cart/update',
